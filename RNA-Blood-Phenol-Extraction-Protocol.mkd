@@ -1,10 +1,12 @@
 # Phenol tRNA Extraction Protocol
+@author Jonathan Dain. 
 
 This protocol is adapted from the manufacturers instructions on the Zymo Direct-zol-96 MagBead RNA kit. The protocol is found here (https://www.zymoresearch.com/collections/direct-zol-rna-kits/products/direct-zol-96-magbead-rna).
 
 This is futher modified using information in Johanna Harvey's RNA extraction that can be found here (https://github.com/JAHarvey/RNA-Blood-preservation-extraction)
 
 ## Extraction Setup and Preperations:
-
 ### Bead Sterilization:
-1. 
+1. Confirm that you have enough 3mm stainless steal beads to process the amount of samples in the extraction. 
+
+2. 
