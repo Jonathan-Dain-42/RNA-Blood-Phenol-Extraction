@@ -1,12 +1,19 @@
 # Phenol tRNA Extraction Protocol
 @author Jonathan Dain. 
+@github https://github.com/Jonathan-Dain-42
 
 This protocol is adapted from the manufacturers instructions on the Zymo Direct-zol-96 MagBead RNA kit. The protocol is found here (https://www.zymoresearch.com/collections/direct-zol-rna-kits/products/direct-zol-96-magbead-rna).
 
 This is futher modified using information in Johanna Harvey's RNA extraction that can be found here (https://github.com/JAHarvey/RNA-Blood-preservation-extraction)
-
+## Safety Information:
+- Phenol is toxic. 
 ## Extraction Setup and Preperations:
+### Digital Plate Setup:
+1. Using your laptop or lab computer navigate to the VirusPlusLab/Screening/
+2. Fill out the template with the sample vials and save with the extraction date (YYYY-MM-DD). 
+3. Print out the extraction template for use during the extraction. 
 ### Bead Sterilization:
-1. Confirm that you have enough 3mm stainless steal beads to process the amount of samples in the extraction. 
+1. Confirm that you have the correct amount of 3mm steel beads steralized for use in this protocol. 
+2. If additional beads need to be steralized, place additional beads in a small autoclave bag and run using the 1st floor autoclave with the HD45 cycle. 
+3. Once beads are autoclaved spray with RNA-Zap inside of the biosafety cabinet (room 3204). 
 
-2. 
