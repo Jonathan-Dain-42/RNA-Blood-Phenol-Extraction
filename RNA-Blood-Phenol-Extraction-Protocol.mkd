@@ -1,5 +1,6 @@
 # Phenol tRNA Extraction Protocol
-@author Jonathan Dain. 
+@author Jonathan Dain   
+
 @github https://github.com/Jonathan-Dain-42
 # Purpose:
 This protocol has been refined for use of RNA extraction from field collected whole avian blood samples preserved in DNA/RNA Shield which were then stored in a -80 °C freezer. The reagent volumes are setup to extract RNA from 20 blood samples at a time. 
