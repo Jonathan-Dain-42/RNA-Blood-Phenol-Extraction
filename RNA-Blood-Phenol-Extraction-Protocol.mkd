@@ -46,7 +46,7 @@ This protocol is adapted from the manufacturers instructions on the Zymo Direct-
 **Note: This protocol is designed for use with avian whole blood samples stored in DNA/RNA Shield.**
 1. Thaw frozen blood vials inside of biosafety cabinet (room 3204). 
 2. Aliquot *100uL* of Blood Stored in DNA/RNA Shield into a sterile 2mL Eppendorf.
-3. Add *1uL* of Protienase K solution to each sample. Incubate samples at room temp for 30 minutes. 
+3. Add *5uL* of Protienase K solution to each sample. Incubate samples at room temp for 30 minutes. **(This is done per the Zymo Rep recommendation)**.
 4. **Move samples from biosafety cabinet (room 3204) to fume hood (near Moyers lab benches).**
 5. For a 100uL sample add *100uL* of Tri-Reagent. 
 6. Add sterile 3mm bead and vortex for 10 minutes.
