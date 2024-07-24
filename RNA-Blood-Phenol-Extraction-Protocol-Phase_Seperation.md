@@ -64,7 +64,7 @@ This protocol is adapted from the manufacturers instructions on the Zymo Direct-
 3. Check phase separation: 50-60% of the volume should be clear aqueous phase. If separation is poor, add an additional 100 μl 1-Bromo-3-chloropropane and repeat shake-incubate-spin step. Centrifugation separates the mixture into 3 phases: a colorless upper aqueous phase containing total RNA, an interphase containing DNA, and the red organic phase containing proteins.
 4. Carefully collect up to 500 μl of the aqueous phase, making sure not to disturb interphase or lower organic phase, and place in clean 96-well plate taking care to place sample into correct well.
 
-#### **The rest of this protocol will be performed by the benchtop Kingfisher Flex robot in room 3204**
+### **The rest of this protocol will be performed by the benchtop Kingfisher Flex robot in room 3204**
 
 # RNA Purification:
 1. Add equal volume of ethanol (95-100%) to sample lysed in TRI-Reagent, mix via vortex for 30 seconds.
