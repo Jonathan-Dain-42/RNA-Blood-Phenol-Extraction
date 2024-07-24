@@ -69,7 +69,7 @@ This protocol is adapted from the manufacturers instructions on the Zymo Direct-
 4. Carefully collect up to 500 μl of the aqueous phase, making sure not to disturb interphase or lower organic phase, and place in sample plate taking care to place sample into correct well. Discared the interphase and lower organic phase. *Note this must be discarded in the proper waste receptical.*
 
 # RNA Purification:
-1. Add equal volume of ethanol (95-100%) to sample lysed in TRI-Reagent, pipette mix twice.
+1. Add equal volume of ethanol (95-100%) to recovered aqueous phase, pipette mix twice.
 2. Add *20uL* MagBinding Beads to each well of the sample plate.
 ### **The rest of this protocol will be performed by the benchtop Kingfisher Flex robot in room 3204 using a custom script**  
 3. Mix well for 10 minutes then pellet the beads, and discard the cleared supernatant.
