@@ -5,7 +5,7 @@
 # Purpose:
 This protocol has been refined for use of RNA extraction from field collected whole avian blood samples preserved in DNA/RNA Shield which were then stored in a -80 °C freezer. The reagent volumes are setup to extract RNA from 20 blood samples at a time. 
 
-This protocol is adapted from the manufacturers instructions on the Zymo Direct-zol-96 MagBead RNA kit. Their protocol is found [here](https://files.zymoresearch.com/protocols/_r2100_r2101_r2102_r2103_r2104_r2105_direct-zol-96_magbead_rna.pdf). It was then modified using information in Johanna Harvey's RNA extraction that can be found [here](https://github.com/JAHarvey/RNA-Blood-preservation-extraction).
+This protocol is adapted from the manufacturers instructions on the Zymo Direct-zol-96 MagBead RNA kit. Their protocol is found [here](https://files.zymoresearch.com/protocols/_r2100_r2101_r2102_r2103_r2104_r2105_direct-zol-96_magbead_rna.pdf). It was then modified using information in Johanna Harvey's RNA extraction that can be found [here](https://github.com/JAHarvey/RNA-Blood-preservation-extraction). 
 # Before Starting:
 ## Safety Information:
 - TRI-Reagent contains the compound phenol which is extremely toxic. Therefore this protocol needs to be done inside of a active fume hood for the parts that utilize the TRI-Reagent. 
@@ -48,9 +48,15 @@ This protocol is adapted from the manufacturers instructions on the Zymo Direct-
 1. Thaw frozen blood vials inside of biosafety cabinet (room 3204). If blood sample was not stored in DNR/RNA shield, add *200uL* of DNA/RNA shield to *50uL* of blood sample and mix pipette mix before step 2.
 2. Aliquot *100uL* of Blood Stored in DNA/RNA Shield into a sterile 2mL Eppendorf.
 3. Add *5uL* of Protienase K solution to each sample. Incubate samples at room temp for 30 minutes. **(This is done per the Zymo Rep recommendation)**.
-4. **Move samples from biosafety cabinet (room 3204) to fume hood (near Moyers lab benches).**
-5. For a 100uL sample add *100uL* of Tri-Reagent. 
-6. Add sterile 3mm bead and vortex for 10 minutes.
+4. While the samples are incubating label 7 Kingfisher 96-deep well plates in the following order: Samples, DNA/RNA Wash 1, DNA/RNA Wash 2, Ethanol Wash 1, Ethanol Wash 2, RNA Prep Buffer, Elution. 
+5. Add *500uL* MagBead DNA/RNA Wash 1 in the named plate. 
+6. Add *500uL* MagBead DNA/RNA Wash 2 in the named plate.
+7. Add *500uL* ethanol (96-100%) into both ethanol wash plates. 
+8. Add *500uL* RNA Prep Buffer into the named plate.
+9. Add *50uL* DNase/RNase Free water into the elution plate. 
+10. **Move samples from biosafety cabinet (room 3204) to fume hood (near Moyers lab benches).**
+11. For a 100uL sample add *100uL* of Tri-Reagent. 
+12. Add sterile 3mm bead and vortex for 10 minutes.
 
 # Phase Seperation:
 1. Add *100μl* cold 1-Bromo-3-chloropropane, shake vigorously for 20 seconds, then incubate at room temperature 10-15 minutes.
@@ -58,22 +64,22 @@ This protocol is adapted from the manufacturers instructions on the Zymo Direct-
 3. Check phase separation: 50-60% of the volume should be clear aqueous phase. If separation is poor, add an additional 100 μl 1-Bromo-3-chloropropane and repeat shake-incubate-spin step. Centrifugation separates the mixture into 3 phases: a colorless upper aqueous phase containing total RNA, an interphase containing DNA, and the red organic phase containing proteins.
 4. Carefully collect up to 500 μl of the aqueous phase, making sure not to disturb interphase or lower organic phase, and place in clean 96-well plate taking care to place sample into correct well.
 
+**The rest of this protocol will be performed by the benchtop Kingfisher Flex robot in room 3204**  
+
 # RNA Purification:
 1. Add equal volume of ethanol (95-100%) to sample lysed in TRI-Reagent, mix via vortex for 30 seconds.
 2. Add *20uL* MagBinding Beads and mix well for 10 minutes.
-3. Transfer tubes/plate to the magnetic stand until beads have pelleted, then aspirate and discard the cleared supernatant. *Note this must be discarded in the proper waste receptical.*
-**The rest of this protocol will be performed by the benchtop Kingfisher Flex robot in roon 3204**
+3. Transfer tubes/plate to the magnetic stand until beads have pelleted, then aspirate and discard the cleared supernatant. *Note this must be discarded in the proper waste receptical.*   
 4. Add *500uL* MagBead DNA/RNA Wash 1 and mix well. Pellet the beads, and again discard the supernatant.
 5. Add *500uL* MagBead DNA/RNA Wash 2 and mix well. Pellet the beads, and again discard the supernatant.
 6. Add *500uL* ethanol (96-100%) and mix well. Pellet the beads, and again discard the supernatant.
 7. Repeat Step 6 of RNA Purification. 
-8. Add *50uL* DNase 1 Reaction Mix and gently mix for 10 minutes.
-9. Add *500uL* RNA Prep Buffer and mix well for 10 minutes. Pellet the beads and discard the supernatant.
-10. **Repeat steps 6-7 of RNA Purification.**
-11. Dry the beads for 10 minutes or until fully dry. 
-12. Add *50uL* of DNase/RNase-Free Water and mix well for 5 minutes.
-13. Transfer the tubes to the magnetic stand until beads have pelleted, then aspirate and dispense the eluted RNA into labeled microcentrifuge tube. 
-14. Place eluted RNA into -80 unless for storage until further processing/sequencing. 
+8. Add *500uL* RNA Prep Buffer and mix well for 10 minutes. Pellet the beads and discard the supernatant.
+9. **Repeat steps 6-7 of RNA Purification.**
+10. Dry the beads for 10 minutes or until fully dry. 
+11. Add *50uL* of DNase/RNase-Free Water and mix well for 5 minutes.
+12. Transfer the tubes to the magnetic stand until beads have pelleted, then aspirate and dispense the eluted RNA into labeled microcentrifuge tube. 
+13. Place eluted RNA into -80 unless for storage until further processing/sequencing. 
 
 # Decon:
 1. Dispose of all reagents that came in contact with TRI-Reagent (tips, tubes, aqueous waste, etc.) into the label waste container.
