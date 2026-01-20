@@ -11,7 +11,7 @@ The purpose of this protocol is to extract total RNA from nucleated avian whole 
 
 This protocol has been adapted from multiple sources. The base of this protocol is the Zymo Direct-zol-96 MagBead RNA kit. Their protocol can be found [here](https://files.zymoresearch.com/protocols/_r2100_r2101_r2102_r2103_r2104_r2105_direct-zol-96_magbead_rna.pdf). It was then modified using information in Johanna Harvey's RNA extraction that can be found [here](https://github.com/JAHarvey/RNA-Blood-preservation-extraction). Finally, this protocol has been adapted to allow the use of a Kingfisher Flex benchtop robot. The automation script can be found [here](https://github.com/Jonathan-Dain-42/RNA-Blood-Phenol-Extraction/Phase_Seperation_Protocol/Avian_Whole_Blood_tRNA_Tri_Reagemt_Phase_Seperation_Extraction.html)
 
-The printable version of this protocol can be found [here](https://github.com/Jonathan-Dain-42/RNA-Blood-Phenol-Extraction/blob/main/RNA-Blood-Phenol-Extraction-Protocol-Phase_Seperation.html).
+The printable version of this protocol can be found [here](https://github.com/Jonathan-Dain-42/RNA-Blood-Phenol-Extraction/blob/main/Phase_Seperation_Protocol/Avian_Whole_Blood_tRNA_Tri_Reagemt_Phase_Seperation_Extraction.html).
 
 ## Before Starting:
 
