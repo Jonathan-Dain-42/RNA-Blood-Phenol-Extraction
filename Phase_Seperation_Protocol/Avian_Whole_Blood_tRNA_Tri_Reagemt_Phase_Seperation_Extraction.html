@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.32">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Jonathan Dain">
+<meta name="dcterms.date" content="2026-01-20">
+
+<title>Tri-Reagent Avian Whole Blood total RNA extraction Protocol</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="Avian_Whole_Blood_tRNA_Tri_Reagemt_Phase_Seperation_Extraction_files/libs/clipboard/clipboard.min.js"></script>
+<script src="Avian_Whole_Blood_tRNA_Tri_Reagemt_Phase_Seperation_Extraction_files/libs/quarto-html/quarto.js" type="module"></script>
+<script src="Avian_Whole_Blood_tRNA_Tri_Reagemt_Phase_Seperation_Extraction_files/libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="Avian_Whole_Blood_tRNA_Tri_Reagemt_Phase_Seperation_Extraction_files/libs/quarto-html/popper.min.js"></script>
+<script src="Avian_Whole_Blood_tRNA_Tri_Reagemt_Phase_Seperation_Extraction_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="Avian_Whole_Blood_tRNA_Tri_Reagemt_Phase_Seperation_Extraction_files/libs/quarto-html/anchor.min.js"></script>
+<link href="Avian_Whole_Blood_tRNA_Tri_Reagemt_Phase_Seperation_Extraction_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="Avian_Whole_Blood_tRNA_Tri_Reagemt_Phase_Seperation_Extraction_files/libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="Avian_Whole_Blood_tRNA_Tri_Reagemt_Phase_Seperation_Extraction_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="Avian_Whole_Blood_tRNA_Tri_Reagemt_Phase_Seperation_Extraction_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="Avian_Whole_Blood_tRNA_Tri_Reagemt_Phase_Seperation_Extraction_files/libs/bootstrap/bootstrap-81267100e462c21b3d6c0d5bf76a3417.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+
+
+</head>
+
+<body class="quarto-light">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="Avian_Whole_Blood_tRNA_Tri_Reagemt_Phase_Seperation_Extraction.md"><i class="bi bi-file-code"></i>Github (GFM)</a></li></ul></div></div>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Tri-Reagent Avian Whole Blood total RNA extraction Protocol</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Jonathan Dain </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">January 20, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="purpose" class="level2">
+<h2 class="anchored" data-anchor-id="purpose">Purpose:</h2>
+<p>The purpose of this protocol is to extract total RNA from nucleated avian whole blood samples that have been collected (preserved) in DNA/RNA shield and stored at -80ºC. The eluted tRNA will be used in downstream applications including library prep, sequencing, and gene expression studies.</p>
+<p>This protocol has been adapted from multiple sources. The base of this protocol is the Zymo Direct-zol-96 MagBead RNA kit. Their protocol can be found <a href="https://files.zymoresearch.com/protocols/_r2100_r2101_r2102_r2103_r2104_r2105_direct-zol-96_magbead_rna.pdf">here</a>. It was then modified using information in Johanna Harvey’s RNA extraction that can be found <a href="https://github.com/JAHarvey/RNA-Blood-preservation-extraction">here</a>. Finally, this protocol has been adapted to allow the use of a Kingfisher Flex benchtop robot. The automation script can be found <a href="https://github.com/Jonathan-Dain-42/RNA-Blood-Phenol-Extraction/Phase_Seperation_Protocol/Avian_Whole_Blood_tRNA_Tri_Reagemt_Phase_Seperation_Extraction.html">here</a></p>
+<p>The printable version of this protocol can be found <a href="https://github.com/Jonathan-Dain-42/RNA-Blood-Phenol-Extraction/blob/main/RNA-Blood-Phenol-Extraction-Protocol-Phase_Seperation.html">here</a>.</p>
+</section>
+<section id="before-starting" class="level2">
+<h2 class="anchored" data-anchor-id="before-starting">Before Starting:</h2>
+<section id="safety-information" class="level3">
+<h3 class="anchored" data-anchor-id="safety-information">Safety Information:</h3>
+<blockquote class="blockquote">
+<p>⚠️ <strong>Warning:</strong> TRI-Reagent contains the compound <a href="https://files.zymoresearch.com/sds/_r2050-1-50_tri_reagent_us.pdf?_gl=1*14j31np*_gcl_au*MTcwNTM4ODE5Ni4xNzY4OTI1NDQ4LjIzODk3MTg2OC4xNzY4OTMxNjk0LjE3Njg5MzE4Njc.">phenol</a> which is extremely toxic!! Therefore the parts of this protocol that utilize TRI-reagent needs to be done inside of a active fume hood. In addition the waste produced during this protocol needs to be disposed of in the proper waste receptical.</p>
+</blockquote>
+<hr>
+</section>
+<section id="equipment-and-reagents-needed" class="level3">
+<h3 class="anchored" data-anchor-id="equipment-and-reagents-needed">Equipment and Reagents Needed:</h3>
+<ul>
+<li>1 x MagBind Tube Stand (Green one)</li>
+<li>1 x Multi-tube vortex (Name Pending)</li>
+<li>1 x Pipette-10 + Tips</li>
+<li>1 x Pipette-200 + Tips</li>
+<li>1 x Pipette-1000 + Tips</li>
+<li>1 x Centrifuge (i.e.&nbsp;“Taz” placed in the 4ºC walk-in freezer)</li>
+<li>3mm steal beads (1 per sample)</li>
+</ul>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 34%">
+<col style="width: 27%">
+<col style="width: 19%">
+<col style="width: 19%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Reagents</th>
+<th style="text-align: center;">x 1 sample</th>
+<th style="text-align: center;">x 12 samples</th>
+<th style="text-align: center;">x 24 samples</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Tri-Reagent</td>
+<td style="text-align: center;">1000 uL</td>
+<td style="text-align: center;">12 mL</td>
+<td style="text-align: center;">24 mL</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Mag Beads</td>
+<td style="text-align: center;">20 uL</td>
+<td style="text-align: center;">240 uL</td>
+<td style="text-align: center;">480 uL</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">DNA/RNA Wash 1 Buffer</td>
+<td style="text-align: center;">500 uL</td>
+<td style="text-align: center;">6 mL</td>
+<td style="text-align: center;">12 mL</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">DNA/RNA Wash 2 Buffer</td>
+<td style="text-align: center;">500 uL</td>
+<td style="text-align: center;">6 mL</td>
+<td style="text-align: center;">12 mL</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">EtOH (Two Plates)</td>
+<td style="text-align: center;">500 uL x 2</td>
+<td style="text-align: center;">6 mL x 2</td>
+<td style="text-align: center;">12 mL x 2</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">RNA Prep Buffer</td>
+<td style="text-align: center;">500 uL</td>
+<td style="text-align: center;">6 mL</td>
+<td style="text-align: center;">12 mL</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">DNase/RNase Free Water</td>
+<td style="text-align: center;">100 uL</td>
+<td style="text-align: center;">1.2 mL</td>
+<td style="text-align: center;">2.4 mL</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">1-Bromo-3-chloropropane</td>
+<td style="text-align: center;">100 uL</td>
+<td style="text-align: center;">1.2 mL</td>
+<td style="text-align: center;">2.4 mL</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">DNA/RNA Shield</td>
+<td style="text-align: center;">200 uL (as needed)</td>
+<td style="text-align: center;">2.4 mL</td>
+<td style="text-align: center;">4.8 mL</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="setup-and-preparation" class="level2">
+<h2 class="anchored" data-anchor-id="setup-and-preparation">Setup and Preparation:</h2>
+<section id="extraction-plate-setup" class="level3">
+<h3 class="anchored" data-anchor-id="extraction-plate-setup">Extraction Plate Setup:</h3>
+<ol type="1">
+<li>Using your laptop or lab computer navigate to the VirusPlusLab/Screening/Blood_RNA_Seq/</li>
+<li>Fill out the <a href="https://liveumb-my.sharepoint.com/:x:/r/personal/nichola_hill_umb_edu/Documents/VirusPlusLab/Screening/Blood_RNA_Seq/Raw_sample_TEMPLATE_UMB.xlsx?d=wc5a8e2974b524b30bbd46593014086eb&amp;csf=1&amp;web=1&amp;e=rDQWN3">template</a> with the sample vial ID’s and save with the extraction date (YYYY-MM-DD).</li>
+<li>Print out the extraction template and the current extraction <a href="https://github.com/Jonathan-Dain-42/RNA-Blood-Phenol-Extraction/blob/main/RNA-Blood-Phenol-Extraction-Protocol.mkd">protocol</a> - if not done already - for use during the extraction.</li>
+</ol>
+</section>
+<section id="bead-sterilization" class="level3">
+<h3 class="anchored" data-anchor-id="bead-sterilization">Bead Sterilization:</h3>
+<ol type="1">
+<li>Confirm that you have the correct amount of 3mm steel beads sterilized for use in this protocol. You should have 1 per sample.</li>
+<li>If additional beads need to be sterilized, place additional beads in a small autoclave bag and run using the 1st floor autoclave with the HD45 cycle.</li>
+<li>Once beads are autoclaved, spray with RNA-Zap inside of the biosafety cabinet (room 3204).</li>
+</ol>
+</section>
+<section id="buffer-preparation" class="level3">
+<h3 class="anchored" data-anchor-id="buffer-preparation">Buffer Preparation:</h3>
+<ol type="1">
+<li>If not done already: Add 20 ml (R2100, R2101) or 80 ml (R2102, R2103) of isopropanol to the MagBead DNA/RNA Wash 1 concentrate and mix well.</li>
+<li>If not done already: Add 30 ml (R2100, R2101) or 120 ml (R2102, R2103) of isopropanol to the MagBead DNA/RNA Wash 2 concentrate and mix well.</li>
+</ol>
+</section>
+<section id="kingfisher-robot-preparation" class="level3">
+<h3 class="anchored" data-anchor-id="kingfisher-robot-preparation">Kingfisher Robot Preparation:</h3>
+<ol type="1">
+<li>Turn the bench-top Kingfisher Flex robot on.</li>
+<li>Run a maintenance check of the Kingfisher robot. Use ‘→’ arrow to navigate to maintenance tab (i.e.&nbsp;the spanner icon), scroll down to maintenance checks (spanner &amp; list icon). Select “Check_96dw_tips” program and start. Load the tip comb and ‘Tip Pickup’ plate.</li>
+<li>Once the maintenence check is done. Start the tri-reagent KF protocol. Use the ‘→’ to navigate to the RNA tab, select “<strong>enter protocol name</strong>” and press start.</li>
+</ol>
+</section>
+</section>
+<section id="sample-preparation" class="level2">
+<h2 class="anchored" data-anchor-id="sample-preparation">Sample Preparation:</h2>
+<blockquote class="blockquote">
+<p>🦆 🧪 Note: This protocol is designed for use with <strong>avian whole blood</strong> samples stored in <strong>DNA/RNA Shield</strong>.</p>
+</blockquote>
+<ol type="1">
+<li><p>Prior to thawing samples turn on biosafety cabinet (BSC) in 3204 and let blower “go” for 15 minutes. Wipe down inside of BSC with quartricide and RNase Zap. Additionally wipe down grey countertops with quartricide and outside of Kingfisher robot with both quatricide and RNase Zap.</p></li>
+<li><p>Thaw frozen blood vials inside of BSC (room 3204). If blood sample was not stored in DNR/RNA shield, add <em>200uL</em> of DNA/RNA shield to <em>50uL</em> of blood sample and mix pipette mix before step 2.</p></li>
+<li><p>While the samples are thawing label 7 x Kingfisher 96-deep well plates in the following order: Samples, DNA/RNA Wash 1, DNA/RNA Wash 2, Ethanol Wash 1, Ethanol Wash 2, RNA Prep Buffer, Elution.</p></li>
+<li><p>Add the following reagents to each well in each plate in order.</p></li>
+<li><p>Add <em>500uL</em> MagBead DNA/RNA Wash 1 to each well in the DNA/RNA Wash 1 plate.</p></li>
+<li><p>Add <em>500uL</em> MagBead DNA/RNA Wash 2 to each well in the DNA/RNA Wash 2 plate.</p></li>
+<li><p>Add <em>500uL</em> ethanol (96-100%) into both ethanol wash plates.</p></li>
+<li><p>Add <em>500uL</em> RNA Prep Buffer to each well in the RNA Prep Buffer plate.</p></li>
+<li><p>Add <em>50uL</em> DNase/RNase free water to each well in the elution plate.</p></li>
+<li><p>Load the places (minus the sample plate) onto the robot.</p></li>
+<li><p>Once samples are thawed aliquot ~<em>100uL</em> of Blood Stored in DNA/RNA Shield into a sterile 2mL Eppendorf.</p></li>
+<li><p>Centrifuge your 100uL aliquot in 4ºC centrifuge for 1 min at 5,000 - 8,000 x g. This will lightly pellet the blood and allow you to remove a significant proportion of DNA/RNA shield. You may leave some behind but it is not recommended to leave more than ~20uL or shield.</p></li>
+<li><p><strong>Move samples from BSC (room 3204) to fume hood (near Moyer’s lab benches).</strong></p></li>
+<li><p>To each 2mL eppendorf tube add <em>1000uL</em> of Tri-Reagent.</p></li>
+<li><p>Add sterile 3mm bead and vortex for 10 minutes using the multi-tube vortex.</p></li>
+</ol>
+</section>
+<section id="phase-seperation" class="level2">
+<h2 class="anchored" data-anchor-id="phase-seperation">Phase Seperation:</h2>
+<ol type="1">
+<li>Add <em>100μl</em> cold 1-Bromo-3-chloropropane to each sample, shake vigorously for 20 seconds, then incubate at room temperature 10 minutes.</li>
+<li>In the cold centrifuge spin at 4°C for 30-60 minutes at 12,000 x g (or max speed).</li>
+<li>Check phase separation: 50-60% of the volume should be clear aqueous phase. If separation is poor, add an additional 100 μl 1-Bromo-3-chloropropane and repeat shake-incubate-spin step. Centrifugation separates the mixture into 3 phases: a colorless upper aqueous phase containing total RNA, an interphase containing DNA, and the red organic phase containing proteins.</li>
+<li>Carefully collect up to 500 μl of the aqueous phase, making sure not to disturb interphase or lower organic phase, and place in sample plate taking care to place sample into correct well of sample plate. Discared the interphase and lower organic phase. <em>Note this must be discarded in the proper waste receptical.</em></li>
+</ol>
+<blockquote class="blockquote">
+<p>💡 Here is a visual example of <a href="https://cdn.shopify.com/s/files/1/0803/9419/1166/files/1_6905ba21-b3eb-4a34-9355-94e0bc796bac_1024x1024.jpg?v=1751352495">Phase Seperation</a></p>
+</blockquote>
+</section>
+<section id="rna-purification" class="level2">
+<h2 class="anchored" data-anchor-id="rna-purification">RNA Purification:</h2>
+<ol type="1">
+<li>Add equal volume of ethanol (95-100%) to recovered aqueous phase in each well, pipette mix twice.</li>
+<li>Add <em>20uL</em> MagBinding Beads to each well of the sample plate.</li>
+<li>Load sample plate onto Kingfisher robot in room 3204.</li>
+</ol>
+<blockquote class="blockquote">
+<p>🛠️ <strong>The rest of this protocol will be performed by the benchtop Kingfisher Flex robot in room 3204 using a custom script. Buffers are already dispensed into deep well plates the robot is manually moving the beads.</strong></p>
+</blockquote>
+<ol start="4" type="1">
+<li>Mix well for 10 minutes then pellet the beads, and discard the cleared supernatant.</li>
+<li>Add <em>500uL</em> MagBead DNA/RNA Wash 1 and mix well. Pellet the beads, and again discard the supernatant.</li>
+<li>Add <em>500uL</em> MagBead DNA/RNA Wash 2 and mix well. Pellet the beads, and again discard the supernatant.</li>
+<li>Add <em>500uL</em> ethanol (96-100%) and mix well. Pellet the beads, and again discard the supernatant.</li>
+<li><strong>Repeat Step 6 of RNA Purification.</strong></li>
+<li>Dry the beads for 10 minutes or until fully dry.</li>
+<li>Add <em>100uL</em> of DNase/RNase-Free Water and mix well for 5 minutes.</li>
+<li>Elute RNA into 100uL DNase/RNase free water and remove beads.</li>
+<li>Off of the robot, manually aliquot the eluted RNA into a labeled clean micro-centrifuge strip.</li>
+<li>Aliquot 2.5 ul of RNA for quantitation into strip tubes. Use 1 μl for Qubit, 1 μl for Bioanalyzer, with the remaining 0.5 μl to account for pipetting error. Store RNA in -80°C.</li>
+<li>Place eluted RNA into -80ºC for storage until further processing/sequencing.</li>
+</ol>
+</section>
+<section id="decontamination-and-clean-up" class="level2">
+<h2 class="anchored" data-anchor-id="decontamination-and-clean-up">Decontamination and Clean-up:</h2>
+<ol type="1">
+<li>Dispose of all reagents that came in contact with TRI-Reagent (tips, tubes, aqueous waste, etc.) into the label waste container.</li>
+<li>Close and seal all open reagents and return to proper storage locations/temperatures.</li>
+<li>Wipe down area with ethanol and remove vortex from fume hood.</li>
+<li>Remove “Taz” from 4ºC walk-in freezer and place back on lab bench in 3200.</li>
+<li>Wipe down BSC, grey counters, and Kingfisher robot with quatricide.</li>
+<li>Let the BSC blower blow for an additional 15-minutes then turn off BSC.</li>
+</ol>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

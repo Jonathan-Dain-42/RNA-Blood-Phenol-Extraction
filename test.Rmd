@@ -2,6 +2,19 @@
 
 This is a test of the rmd file
 
-## Woah there 
+## Woah there
 
 ### Hello
+
+| Reagent                 | x 1    | x 12 |
+|-------------------------|--------|------|
+| Tri-Reagent             | 500 uL |      |
+| Mag Beads               | 20 uL  |      |
+| DNA/RNA Wash 1 Buffer   | 500 uL |      |
+| DNA/RNA Wash 2 Buffer   | 500 uL |      |
+| EtOH (Washes)           | 500 uL |      |
+| RNA Prep Buffer         | 500 uL |      |
+| DNase/RNase Free Water  | 100 uL |      |
+| 1-Bromo-3-chloropropane | 100 uL |      |
+| DNA/RNA Shield          |        |      |
+| IPA (100%)              |        |      |
