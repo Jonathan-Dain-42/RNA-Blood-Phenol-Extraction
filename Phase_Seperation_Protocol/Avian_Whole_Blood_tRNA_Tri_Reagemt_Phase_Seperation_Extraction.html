@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Jonathan Dain">
-<meta name="dcterms.date" content="2026-01-20">
+<meta name="dcterms.date" content="2026-01-29">
 
 <title>Tri-Reagent Avian Whole Blood total RNA extraction Protocol</title>
 <style>
@@ -40,11 +40,10 @@ ul.task-list li input[type="checkbox"] {
 
 </head>
 
-<body class="quarto-light">
+<body class="fullcontent quarto-light">
 
 <div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
-<div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="Avian_Whole_Blood_tRNA_Tri_Reagemt_Phase_Seperation_Extraction.md"><i class="bi bi-file-code"></i>Github (GFM)</a></li></ul></div></div>
+
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
@@ -66,7 +65,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">January 20, 2026</p>
+      <p class="date">January 29, 2026</p>
     </div>
   </div>
   
@@ -80,9 +79,9 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="purpose" class="level2">
 <h2 class="anchored" data-anchor-id="purpose">Purpose:</h2>
-<p>The purpose of this protocol is to extract total RNA from nucleated avian whole blood samples that have been collected (preserved) in DNA/RNA shield and stored at -80ºC. The eluted tRNA will be used in downstream applications including library prep, sequencing, and gene expression studies.</p>
-<p>This protocol has been adapted from multiple sources. The base of this protocol is the Zymo Direct-zol-96 MagBead RNA kit. Their protocol can be found <a href="https://files.zymoresearch.com/protocols/_r2100_r2101_r2102_r2103_r2104_r2105_direct-zol-96_magbead_rna.pdf">here</a>. It was then modified using information in Johanna Harvey’s RNA extraction that can be found <a href="https://github.com/JAHarvey/RNA-Blood-preservation-extraction">here</a>. Finally, this protocol has been adapted to allow the use of a Kingfisher Flex benchtop robot. The automation script can be found <a href="https://github.com/Jonathan-Dain-42/RNA-Blood-Phenol-Extraction/Phase_Seperation_Protocol/Avian_Whole_Blood_tRNA_Tri_Reagemt_Phase_Seperation_Extraction.html">here</a></p>
-<p>The printable version of this protocol can be found <a href="https://github.com/Jonathan-Dain-42/RNA-Blood-Phenol-Extraction/blob/main/RNA-Blood-Phenol-Extraction-Protocol-Phase_Seperation.html">here</a>.</p>
+<p>The purpose of this protocol is to extract total RNA (tRNA) from nucleated avian whole blood samples that have been collected (preserved) in DNA/RNA shield and stored at -80ºC. The eluted tRNA will be used in downstream applications including library prep, sequencing, and gene expression studies.</p>
+<p>This protocol has been adapted from multiple sources. The base of this protocol is the Zymo Direct-zol-96 MagBead RNA kit. Their protocol can be found <a href="https://files.zymoresearch.com/protocols/_r2100_r2101_r2102_r2103_r2104_r2105_direct-zol-96_magbead_rna.pdf">here</a>. It was then modified using information in Dr.&nbsp;Johanna Harvey’s RNA extraction that can be found <a href="https://github.com/JAHarvey/RNA-Blood-preservation-extraction">here</a>. Finally, this protocol has been adapted to allow the use of a Kingfisher Flex ‘benchtop’ robot. The automation script can be found <a href="https://github.com/Jonathan-Dain-42/RNA-Blood-Phenol-Extraction/Phase_Seperation_Protocol/Avian_Whole_Blood_tRNA_Tri_Reagemt_Phase_Seperation_Extraction.html">here</a></p>
+<p>The printable version of this protocol can be found <a href="https://jonathan-dain-42.github.io/RNA-Blood-Phenol-Extraction/Phase_Seperation_Protocol/Avian_Whole_Blood_tRNA_Tri_Reagemt_Phase_Seperation_Extraction.html">here</a>.</p>
 </section>
 <section id="before-starting" class="level2">
 <h2 class="anchored" data-anchor-id="before-starting">Before Starting:</h2>
@@ -106,10 +105,10 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 34%">
-<col style="width: 27%">
-<col style="width: 19%">
-<col style="width: 19%">
+<col style="width: 30%">
+<col style="width: 25%">
+<col style="width: 22%">
+<col style="width: 22%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -163,7 +162,7 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: center;">2.4 mL</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">1-Bromo-3-chloropropane</td>
+<td style="text-align: left;">1-Bromo-3-chloropropane @ 4ºC</td>
 <td style="text-align: center;">100 uL</td>
 <td style="text-align: center;">1.2 mL</td>
 <td style="text-align: center;">2.4 mL</td>
@@ -208,7 +207,7 @@ ul.task-list li input[type="checkbox"] {
 <ol type="1">
 <li>Turn the bench-top Kingfisher Flex robot on.</li>
 <li>Run a maintenance check of the Kingfisher robot. Use ‘→’ arrow to navigate to maintenance tab (i.e.&nbsp;the spanner icon), scroll down to maintenance checks (spanner &amp; list icon). Select “Check_96dw_tips” program and start. Load the tip comb and ‘Tip Pickup’ plate.</li>
-<li>Once the maintenence check is done. Start the tri-reagent KF protocol. Use the ‘→’ to navigate to the RNA tab, select “<strong>enter protocol name</strong>” and press start.</li>
+<li>Once the maintenance check is done. Start the tri-reagent KF protocol. Use the ‘→’ to navigate to the RNA tab, select “<strong>enter protocol name</strong>” and press start.</li>
 </ol>
 </section>
 </section>
@@ -219,14 +218,13 @@ ul.task-list li input[type="checkbox"] {
 </blockquote>
 <ol type="1">
 <li><p>Prior to thawing samples turn on biosafety cabinet (BSC) in 3204 and let blower “go” for 15 minutes. Wipe down inside of BSC with quartricide and RNase Zap. Additionally wipe down grey countertops with quartricide and outside of Kingfisher robot with both quatricide and RNase Zap.</p></li>
-<li><p>Thaw frozen blood vials inside of BSC (room 3204). If blood sample was not stored in DNR/RNA shield, add <em>200uL</em> of DNA/RNA shield to <em>50uL</em> of blood sample and mix pipette mix before step 2.</p></li>
-<li><p>While the samples are thawing label 7 x Kingfisher 96-deep well plates in the following order: Samples, DNA/RNA Wash 1, DNA/RNA Wash 2, Ethanol Wash 1, Ethanol Wash 2, RNA Prep Buffer, Elution.</p></li>
-<li><p>Add the following reagents to each well in each plate in order.</p></li>
+<li><p>Thaw frozen blood vials inside of BSC (room 3204). If blood sample was not stored in DNR/RNA shield, add <em>200uL</em> of DNA/RNA shield to <em>50uL</em> of blood sample and pipette mix before step 2.</p></li>
+<li><p>While the samples are thawing label 7 x Kingfisher 96-deep well plates in the following order: Samples, DNA/RNA Wash 1, DNA/RNA Wash 2, Ethanol Wash 1, Ethanol Wash 2, Elution.</p></li>
+<li><p>Add the following reagents to each well, in each plate, in order.</p></li>
 <li><p>Add <em>500uL</em> MagBead DNA/RNA Wash 1 to each well in the DNA/RNA Wash 1 plate.</p></li>
 <li><p>Add <em>500uL</em> MagBead DNA/RNA Wash 2 to each well in the DNA/RNA Wash 2 plate.</p></li>
-<li><p>Add <em>500uL</em> ethanol (96-100%) into both ethanol wash plates.</p></li>
-<li><p>Add <em>500uL</em> RNA Prep Buffer to each well in the RNA Prep Buffer plate.</p></li>
-<li><p>Add <em>50uL</em> DNase/RNase free water to each well in the elution plate.</p></li>
+<li><p>Add <em>500uL</em> ethanol (96-100%) into ethanol wash plate 1 and 2.</p></li>
+<li><p>Add <em>100uL</em> DNase/RNase free water to each well in the elution plate.</p></li>
 <li><p>Load the places (minus the sample plate) onto the robot.</p></li>
 <li><p>Once samples are thawed aliquot ~<em>100uL</em> of Blood Stored in DNA/RNA Shield into a sterile 2mL Eppendorf.</p></li>
 <li><p>Centrifuge your 100uL aliquot in 4ºC centrifuge for 1 min at 5,000 - 8,000 x g. This will lightly pellet the blood and allow you to remove a significant proportion of DNA/RNA shield. You may leave some behind but it is not recommended to leave more than ~20uL or shield.</p></li>
@@ -238,7 +236,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="phase-seperation" class="level2">
 <h2 class="anchored" data-anchor-id="phase-seperation">Phase Seperation:</h2>
 <ol type="1">
-<li>Add <em>100μl</em> cold 1-Bromo-3-chloropropane to each sample, shake vigorously for 20 seconds, then incubate at room temperature 10 minutes.</li>
+<li>Retrieve 1-Bromo-3-chloropropane from fridge. Add <em>100μl</em> cold 1-Bromo-3-chloropropane to each sample, shake vigorously for 20 seconds, then incubate at room temperature 10 minutes.</li>
 <li>In the cold centrifuge spin at 4°C for 30-60 minutes at 12,000 x g (or max speed).</li>
 <li>Check phase separation: 50-60% of the volume should be clear aqueous phase. If separation is poor, add an additional 100 μl 1-Bromo-3-chloropropane and repeat shake-incubate-spin step. Centrifugation separates the mixture into 3 phases: a colorless upper aqueous phase containing total RNA, an interphase containing DNA, and the red organic phase containing proteins.</li>
 <li>Carefully collect up to 500 μl of the aqueous phase, making sure not to disturb interphase or lower organic phase, and place in sample plate taking care to place sample into correct well of sample plate. Discared the interphase and lower organic phase. <em>Note this must be discarded in the proper waste receptical.</em></li>
@@ -255,19 +253,19 @@ ul.task-list li input[type="checkbox"] {
 <li>Load sample plate onto Kingfisher robot in room 3204.</li>
 </ol>
 <blockquote class="blockquote">
-<p>🛠️ <strong>The rest of this protocol will be performed by the benchtop Kingfisher Flex robot in room 3204 using a custom script. Buffers are already dispensed into deep well plates the robot is manually moving the beads.</strong></p>
+<p>🛠️ <strong>The rest of this protocol will be performed by the benchtop Kingfisher Flex robot in room 3204 using a custom script. Buffers are already dispensed into deep well plates the robot is manually moving the beads to accomplish the below steps.</strong></p>
 </blockquote>
 <ol start="4" type="1">
 <li>Mix well for 10 minutes then pellet the beads, and discard the cleared supernatant.</li>
 <li>Add <em>500uL</em> MagBead DNA/RNA Wash 1 and mix well. Pellet the beads, and again discard the supernatant.</li>
 <li>Add <em>500uL</em> MagBead DNA/RNA Wash 2 and mix well. Pellet the beads, and again discard the supernatant.</li>
 <li>Add <em>500uL</em> ethanol (96-100%) and mix well. Pellet the beads, and again discard the supernatant.</li>
-<li><strong>Repeat Step 6 of RNA Purification.</strong></li>
+<li><strong>Repeat Step 7 of RNA Purification.</strong></li>
 <li>Dry the beads for 10 minutes or until fully dry.</li>
 <li>Add <em>100uL</em> of DNase/RNase-Free Water and mix well for 5 minutes.</li>
 <li>Elute RNA into 100uL DNase/RNase free water and remove beads.</li>
 <li>Off of the robot, manually aliquot the eluted RNA into a labeled clean micro-centrifuge strip.</li>
-<li>Aliquot 2.5 ul of RNA for quantitation into strip tubes. Use 1 μl for Qubit, 1 μl for Bioanalyzer, with the remaining 0.5 μl to account for pipetting error. Store RNA in -80°C.</li>
+<li>Aliquot 20 ul of RNA for quantitation into strip tubes. Use 2 μl for Qubit, 8 μl for Bioanalyzer, with the remaining 0.5 μl to account for pipetting error. Store RNA in -80°C.</li>
 <li>Place eluted RNA into -80ºC for storage until further processing/sequencing.</li>
 </ol>
 </section>

@@ -1,12 +1,12 @@
 # Tri-Reagent Avian Whole Blood total RNA extraction Protocol
 Jonathan Dain
-2026-01-20
+2026-01-29
 
 ## Purpose:
 
-The purpose of this protocol is to extract total RNA from nucleated
-avian whole blood samples that have been collected (preserved) in
-DNA/RNA shield and stored at -80ºC. The eluted tRNA will be used in
+The purpose of this protocol is to extract total RNA (tRNA) from
+nucleated avian whole blood samples that have been collected (preserved)
+in DNA/RNA shield and stored at -80ºC. The eluted tRNA will be used in
 downstream applications including library prep, sequencing, and gene
 expression studies.
 
@@ -14,15 +14,15 @@ This protocol has been adapted from multiple sources. The base of this
 protocol is the Zymo Direct-zol-96 MagBead RNA kit. Their protocol can
 be found
 [here](https://files.zymoresearch.com/protocols/_r2100_r2101_r2102_r2103_r2104_r2105_direct-zol-96_magbead_rna.pdf).
-It was then modified using information in Johanna Harvey’s RNA
+It was then modified using information in Dr. Johanna Harvey’s RNA
 extraction that can be found
 [here](https://github.com/JAHarvey/RNA-Blood-preservation-extraction).
 Finally, this protocol has been adapted to allow the use of a Kingfisher
-Flex benchtop robot. The automation script can be found
+Flex ‘benchtop’ robot. The automation script can be found
 [here](https://github.com/Jonathan-Dain-42/RNA-Blood-Phenol-Extraction/Phase_Seperation_Protocol/Avian_Whole_Blood_tRNA_Tri_Reagemt_Phase_Seperation_Extraction.html)
 
 The printable version of this protocol can be found
-[here](https://github.com/Jonathan-Dain-42/RNA-Blood-Phenol-Extraction/blob/main/Phase_Seperation_Protocol/Avian_Whole_Blood_tRNA_Tri_Reagemt_Phase_Seperation_Extraction.html).
+[here](https://jonathan-dain-42.github.io/RNA-Blood-Phenol-Extraction/Phase_Seperation_Protocol/Avian_Whole_Blood_tRNA_Tri_Reagemt_Phase_Seperation_Extraction.html).
 
 ## Before Starting:
 
@@ -47,17 +47,17 @@ The printable version of this protocol can be found
 - 1 x Centrifuge (i.e. “Taz” placed in the 4ºC walk-in freezer)
 - 3mm steal beads (1 per sample)
 
-| Reagents                |     x 1 sample     | x 12 samples | x 24 samples |
-|:------------------------|:------------------:|:------------:|:------------:|
-| Tri-Reagent             |      1000 uL       |    12 mL     |    24 mL     |
-| Mag Beads               |       20 uL        |    240 uL    |    480 uL    |
-| DNA/RNA Wash 1 Buffer   |       500 uL       |     6 mL     |    12 mL     |
-| DNA/RNA Wash 2 Buffer   |       500 uL       |     6 mL     |    12 mL     |
-| EtOH (Two Plates)       |     500 uL x 2     |   6 mL x 2   |  12 mL x 2   |
-| RNA Prep Buffer         |       500 uL       |     6 mL     |    12 mL     |
-| DNase/RNase Free Water  |       100 uL       |    1.2 mL    |    2.4 mL    |
-| 1-Bromo-3-chloropropane |       100 uL       |    1.2 mL    |    2.4 mL    |
-| DNA/RNA Shield          | 200 uL (as needed) |    2.4 mL    |    4.8 mL    |
+| Reagents                      |     x 1 sample     | x 12 samples | x 24 samples |
+|:------------------------------|:------------------:|:------------:|:------------:|
+| Tri-Reagent                   |      1000 uL       |    12 mL     |    24 mL     |
+| Mag Beads                     |       20 uL        |    240 uL    |    480 uL    |
+| DNA/RNA Wash 1 Buffer         |       500 uL       |     6 mL     |    12 mL     |
+| DNA/RNA Wash 2 Buffer         |       500 uL       |     6 mL     |    12 mL     |
+| EtOH (Two Plates)             |     500 uL x 2     |   6 mL x 2   |  12 mL x 2   |
+| RNA Prep Buffer               |       500 uL       |     6 mL     |    12 mL     |
+| DNase/RNase Free Water        |       100 uL       |    1.2 mL    |    2.4 mL    |
+| 1-Bromo-3-chloropropane @ 4ºC |       100 uL       |    1.2 mL    |    2.4 mL    |
+| DNA/RNA Shield                | 200 uL (as needed) |    2.4 mL    |    4.8 mL    |
 
 ## Setup and Preparation:
 
@@ -99,7 +99,7 @@ The printable version of this protocol can be found
     navigate to maintenance tab (i.e. the spanner icon), scroll down to
     maintenance checks (spanner & list icon). Select “Check_96dw_tips”
     program and start. Load the tip comb and ‘Tip Pickup’ plate.
-3.  Once the maintenence check is done. Start the tri-reagent KF
+3.  Once the maintenance check is done. Start the tri-reagent KF
     protocol. Use the ‘→’ to navigate to the RNA tab, select “**enter
     protocol name**” and press start.
 
@@ -116,13 +116,13 @@ The printable version of this protocol can be found
 
 2.  Thaw frozen blood vials inside of BSC (room 3204). If blood sample
     was not stored in DNR/RNA shield, add *200uL* of DNA/RNA shield to
-    *50uL* of blood sample and mix pipette mix before step 2.
+    *50uL* of blood sample and pipette mix before step 2.
 
 3.  While the samples are thawing label 7 x Kingfisher 96-deep well
     plates in the following order: Samples, DNA/RNA Wash 1, DNA/RNA Wash
-    2, Ethanol Wash 1, Ethanol Wash 2, RNA Prep Buffer, Elution.
+    2, Ethanol Wash 1, Ethanol Wash 2, Elution.
 
-4.  Add the following reagents to each well in each plate in order.
+4.  Add the following reagents to each well, in each plate, in order.
 
 5.  Add *500uL* MagBead DNA/RNA Wash 1 to each well in the DNA/RNA Wash
     1 plate.
@@ -130,37 +130,35 @@ The printable version of this protocol can be found
 6.  Add *500uL* MagBead DNA/RNA Wash 2 to each well in the DNA/RNA Wash
     2 plate.
 
-7.  Add *500uL* ethanol (96-100%) into both ethanol wash plates.
+7.  Add *500uL* ethanol (96-100%) into ethanol wash plate 1 and 2.
 
-8.  Add *500uL* RNA Prep Buffer to each well in the RNA Prep Buffer
+8.  Add *100uL* DNase/RNase free water to each well in the elution
     plate.
 
-9.  Add *50uL* DNase/RNase free water to each well in the elution plate.
+9.  Load the places (minus the sample plate) onto the robot.
 
-10. Load the places (minus the sample plate) onto the robot.
-
-11. Once samples are thawed aliquot ~*100uL* of Blood Stored in DNA/RNA
+10. Once samples are thawed aliquot ~*100uL* of Blood Stored in DNA/RNA
     Shield into a sterile 2mL Eppendorf.
 
-12. Centrifuge your 100uL aliquot in 4ºC centrifuge for 1 min at 5,000 -
+11. Centrifuge your 100uL aliquot in 4ºC centrifuge for 1 min at 5,000 -
     8,000 x g. This will lightly pellet the blood and allow you to
     remove a significant proportion of DNA/RNA shield. You may leave
     some behind but it is not recommended to leave more than ~20uL or
     shield.
 
-13. **Move samples from BSC (room 3204) to fume hood (near Moyer’s lab
+12. **Move samples from BSC (room 3204) to fume hood (near Moyer’s lab
     benches).**
 
-14. To each 2mL eppendorf tube add *1000uL* of Tri-Reagent.
+13. To each 2mL eppendorf tube add *1000uL* of Tri-Reagent.
 
-15. Add sterile 3mm bead and vortex for 10 minutes using the multi-tube
+14. Add sterile 3mm bead and vortex for 10 minutes using the multi-tube
     vortex.
 
 ## Phase Seperation:
 
-1.  Add *100μl* cold 1-Bromo-3-chloropropane to each sample, shake
-    vigorously for 20 seconds, then incubate at room temperature 10
-    minutes.
+1.  Retrieve 1-Bromo-3-chloropropane from fridge. Add *100μl* cold
+    1-Bromo-3-chloropropane to each sample, shake vigorously for 20
+    seconds, then incubate at room temperature 10 minutes.
 2.  In the cold centrifuge spin at 4°C for 30-60 minutes at 12,000 x g
     (or max speed).
 3.  Check phase separation: 50-60% of the volume should be clear aqueous
@@ -188,7 +186,7 @@ The printable version of this protocol can be found
 > 🛠️ **The rest of this protocol will be performed by the benchtop
 > Kingfisher Flex robot in room 3204 using a custom script. Buffers are
 > already dispensed into deep well plates the robot is manually moving
-> the beads.**
+> the beads to accomplish the below steps.**
 
 4.  Mix well for 10 minutes then pellet the beads, and discard the
     cleared supernatant.
@@ -198,15 +196,15 @@ The printable version of this protocol can be found
     and again discard the supernatant.
 7.  Add *500uL* ethanol (96-100%) and mix well. Pellet the beads, and
     again discard the supernatant.
-8.  **Repeat Step 6 of RNA Purification.**
+8.  **Repeat Step 7 of RNA Purification.**
 9.  Dry the beads for 10 minutes or until fully dry.
 10. Add *100uL* of DNase/RNase-Free Water and mix well for 5 minutes.
 11. Elute RNA into 100uL DNase/RNase free water and remove beads.
 12. Off of the robot, manually aliquot the eluted RNA into a labeled
     clean micro-centrifuge strip.
-13. Aliquot 2.5 ul of RNA for quantitation into strip tubes. Use 1 μl
-    for Qubit, 1 μl for Bioanalyzer, with the remaining 0.5 μl to
-    account for pipetting error. Store RNA in -80°C.
+13. Aliquot 20 ul of RNA for quantitation into strip tubes. Use 2 μl for
+    Qubit, 8 μl for Bioanalyzer, with the remaining 0.5 μl to account
+    for pipetting error. Store RNA in -80°C.
 14. Place eluted RNA into -80ºC for storage until further
     processing/sequencing.
 
