@@ -58,6 +58,7 @@ The printable version of this protocol can be found
 | DNase/RNase Free Water        |       100 uL       |    1.2 mL    |    2.4 mL    |
 | 1-Bromo-3-chloropropane @ 4ºC |       100 uL       |    1.2 mL    |    2.4 mL    |
 | DNA/RNA Shield                | 200 uL (as needed) |    2.4 mL    |    4.8 mL    |
+| Protienase K Solution         |        20uL        |    240uL     |    480uL     |
 
 ## Setup and Preparation:
 
@@ -118,45 +119,50 @@ The printable version of this protocol can be found
     was not stored in DNR/RNA shield, add *200uL* of DNA/RNA shield to
     *50uL* of blood sample and pipette mix before step 2.
 
-3.  While the samples are thawing label 7 x Kingfisher 96-deep well
-    plates in the following order: Samples, DNA/RNA Wash 1, DNA/RNA Wash
-    2, Ethanol Wash 1, Ethanol Wash 2, Elution.
+3.  Once samples are thawed. Pipette 20uL of Proteinase K solution
+    (Omega-biotek 20mg/ml) directly into original sample tube and
+    vortex. Place the sample tube on the 56ºC heatblock for 30 minutes.
+    Every 10 minutes remove sample and vortex to break up the clots.
 
-4.  Add the following reagents to each well, in each plate, in order.
+4.  While the samples are thawing/incubating label 7 x Kingfisher
+    96-deep well plates in the following order: Samples, DNA/RNA Wash 1,
+    DNA/RNA Wash 2, Ethanol Wash 1, Ethanol Wash 2, Elution.
 
-5.  Add *500uL* MagBead DNA/RNA Wash 1 to each well in the DNA/RNA Wash
+5.  Add the following reagents to each well, in each plate, in order.
+
+6.  Add *500uL* MagBead DNA/RNA Wash 1 to each well in the DNA/RNA Wash
     1 plate.
 
-6.  Add *500uL* MagBead DNA/RNA Wash 2 to each well in the DNA/RNA Wash
+7.  Add *500uL* MagBead DNA/RNA Wash 2 to each well in the DNA/RNA Wash
     2 plate.
 
-7.  Add *500uL* ethanol (96-100%) into ethanol wash plate 1 and 2.
+8.  Add *500uL* ethanol (96-100%) into ethanol wash plate 1 and 2.
 
-8.  Add *100uL* DNase/RNase free water to each well in the elution
+9.  Add *100uL* DNase/RNase free water to each well in the elution
     plate.
 
-9.  Load the places (minus the sample plate) onto the robot.
+10. Load the places (minus the sample plate) onto the robot.
 
-10. Once samples are thawed aliquot ~*100uL* of Blood Stored in DNA/RNA
-    Shield into a sterile 2mL Eppendorf.
+11. Once samples are incubated in PK aliquot ~*100uL* of Blood Stored in
+    DNA/RNA Shield into a sterile 2mL Eppendorf.
 
-11. Centrifuge your 100uL aliquot in 4ºC centrifuge for 1 min at 5,000 -
+12. Centrifuge your 100uL aliquot in 4ºC centrifuge for 1 min at 5,000 -
     8,000 x g. This will lightly pellet the blood and allow you to
     remove a significant proportion of DNA/RNA shield. You may leave
     some behind but it is not recommended to leave more than ~20uL or
     shield.
 
-12. **Move samples from BSC (room 3204) to fume hood (near Moyer’s lab
+13. **Move samples from BSC (room 3204) to fume hood (near Moyer’s lab
     benches).**
 
-13. To each 2mL eppendorf tube add *1000uL* of Tri-Reagent.
+14. To each 2mL eppendorf tube add *1000uL* of Tri-Reagent.
 
-14. Add sterile 3mm bead and vortex for 10 minutes using the multi-tube
+15. Add sterile 3mm bead and vortex for 10 minutes using the multi-tube
     vortex.
 
 ## Phase Seperation:
 
-1.  Retrieve 1-Bromo-3-chloropropane from fridge. Add *100μl* cold
+1.  Retrieve 1-Bromo-3-chloropropane from deli-fridge. Add *100μl* cold
     1-Bromo-3-chloropropane to each sample, shake vigorously for 20
     seconds, then incubate at room temperature 10 minutes.
 2.  In the cold centrifuge spin at 4°C for 30-60 minutes at 12,000 x g
@@ -167,7 +173,7 @@ The printable version of this protocol can be found
     Centrifugation separates the mixture into 3 phases: a colorless
     upper aqueous phase containing total RNA, an interphase containing
     DNA, and the red organic phase containing proteins.
-4.  Carefully collect up to 500 μl of the aqueous phase, making sure not
+4.  Carefully collect up to 400 μl of the aqueous phase, making sure not
     to disturb interphase or lower organic phase, and place in sample
     plate taking care to place sample into correct well of sample plate.
     Discared the interphase and lower organic phase. *Note this must be
@@ -220,3 +226,5 @@ The printable version of this protocol can be found
 5.  Wipe down BSC, grey counters, and Kingfisher robot with quatricide.
 6.  Let the BSC blower blow for an additional 15-minutes then turn off
     BSC.
+7.  Make note of any changes to the protocol that need to be made and
+    any reagents that need to be ordered.
