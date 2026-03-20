@@ -45,7 +45,7 @@ The printable version of this protocol can be found
 - 1 x Pipette-200 + Tips
 - 1 x Pipette-1000 + Tips
 - 1 x Centrifuge (i.e. “Taz” placed in the 4ºC walk-in freezer)
-- 3mm steal beads (1 per sample)
+- 3mm steal beads (2 per sample)
 
 | Reagents                      |     x 1 sample     | x 12 samples | x 24 samples |
 |:------------------------------|:------------------:|:------------:|:------------:|
@@ -73,11 +73,13 @@ The printable version of this protocol can be found
 3.  Print out the extraction template and the current extraction
     [protocol](https://github.com/Jonathan-Dain-42/RNA-Blood-Phenol-Extraction/blob/main/RNA-Blood-Phenol-Extraction-Protocol.mkd) -
     if not done already - for use during the extraction.
+4.  Place “Taz” in the 4ºC walk-in freezer. Make sure that he turn’s on
+    (it is an old machine that has a weak capacitor).
 
 ### Bead Sterilization:
 
 1.  Confirm that you have the correct amount of 3mm steel beads
-    sterilized for use in this protocol. You should have 1 per sample.
+    sterilized for use in this protocol. You should have 2 per sample.
 2.  If additional beads need to be sterilized, place additional beads in
     a small autoclave bag and run using the 1st floor autoclave with the
     HD45 cycle.
@@ -119,45 +121,48 @@ The printable version of this protocol can be found
     was not stored in DNR/RNA shield, add *200uL* of DNA/RNA shield to
     *50uL* of blood sample and pipette mix before step 2.
 
-3.  Once samples are thawed. Pipette 20uL of Proteinase K solution
-    (Omega-biotek 20mg/ml) directly into original sample tube and
-    vortex. Place the sample tube on the 56ºC heatblock for 30 minutes.
-    Every 10 minutes remove sample and vortex to break up the clots.
+3.  Once samples are thawed. Add a 3mm sterile bead and vortex clotted
+    sample for 5 minutes using the multi-tube vortex to break apart
+    clot.
 
-4.  While the samples are thawing/incubating label 7 x Kingfisher
+4.  Pipette 20uL of Proteinase K solution (Omega-biotek 20mg/ml)
+    directly into original sample tube and vortex. Place the sample tube
+    on the 56ºC heatblock for 30 minutes. Every 10 minutes remove sample
+    and vortex to break up the clots.
+
+5.  While the samples are thawing/incubating label 7 x Kingfisher
     96-deep well plates in the following order: Samples, DNA/RNA Wash 1,
     DNA/RNA Wash 2, Ethanol Wash 1, Ethanol Wash 2, Elution.
 
-5.  Add the following reagents to each well, in each plate, in order.
+6.  Add the following reagents to each well, in each plate, in order.
 
-6.  Add *500uL* MagBead DNA/RNA Wash 1 to each well in the DNA/RNA Wash
+7.  Add *500uL* MagBead DNA/RNA Wash 1 to each well in the DNA/RNA Wash
     1 plate.
 
-7.  Add *500uL* MagBead DNA/RNA Wash 2 to each well in the DNA/RNA Wash
+8.  Add *500uL* MagBead DNA/RNA Wash 2 to each well in the DNA/RNA Wash
     2 plate.
 
-8.  Add *500uL* ethanol (96-100%) into ethanol wash plate 1 and 2.
+9.  Add *500uL* ethanol (96-100%) into ethanol wash plate 1 and 2.
 
-9.  Add *100uL* DNase/RNase free water to each well in the elution
+10. Add *100uL* DNase/RNase free water to each well in the elution
     plate.
 
-10. Load the places (minus the sample plate) onto the robot.
+11. Load the places (minus the sample plate) onto the robot.
 
-11. Once samples are incubated in PK aliquot ~*100uL* of Blood Stored in
-    DNA/RNA Shield into a sterile 2mL Eppendorf.
+12. Once samples are incubated in PK perform a final homogenization
+    using the vortex for 2 minutes.
 
-12. Centrifuge your 100uL aliquot in 4ºC centrifuge for 1 min at 5,000 -
-    8,000 x g. This will lightly pellet the blood and allow you to
-    remove a significant proportion of DNA/RNA shield. You may leave
-    some behind but it is not recommended to leave more than ~20uL or
-    shield.
+13. Aliquot ~*100uL* of Blood Stored in DNA/RNA Shield into a sterile
+    2mL Eppendorf.
 
-13. **Move samples from BSC (room 3204) to fume hood (near Moyer’s lab
+<!-- This step is removed since we do not need it: Centrifuge your 100uL aliquot in 4ºC centrifuge for 1 min at 5,000 - 8,000 x g. This will lightly pellet the blood and allow you to remove a significant proportion of DNA/RNA shield. You may leave some behind but it is not recommended to leave more than ~20uL or shield. -->
+
+14. **Move samples from BSC (room 3204) to fume hood (near Moyer’s lab
     benches).**
 
-14. To each 2mL eppendorf tube add *1000uL* of Tri-Reagent.
+15. To each 2mL eppendorf tube add *1000uL* of Tri-Reagent.
 
-15. Add sterile 3mm bead and vortex for 10 minutes using the multi-tube
+16. Add sterile 3mm bead and vortex for 10 minutes using the multi-tube
     vortex.
 
 ## Phase Seperation:
