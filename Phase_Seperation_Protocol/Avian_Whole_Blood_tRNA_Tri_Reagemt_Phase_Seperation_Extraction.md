@@ -54,7 +54,6 @@ The printable version of this protocol can be found
 | DNA/RNA Wash 1 Buffer         |       500 uL       |     6 mL     |    12 mL     |
 | DNA/RNA Wash 2 Buffer         |       500 uL       |     6 mL     |    12 mL     |
 | EtOH (Two Plates)             |     500 uL x 2     |   6 mL x 2   |  12 mL x 2   |
-| RNA Prep Buffer               |       500 uL       |     6 mL     |    12 mL     |
 | DNase/RNase Free Water        |       100 uL       |    1.2 mL    |    2.4 mL    |
 | 1-Bromo-3-chloropropane @ 4ºC |       100 uL       |    1.2 mL    |    2.4 mL    |
 | DNA/RNA Shield                | 200 uL (as needed) |    2.4 mL    |    4.8 mL    |
@@ -103,8 +102,8 @@ The printable version of this protocol can be found
     maintenance checks (spanner & list icon). Select “Check_96dw_tips”
     program and start. Load the tip comb and ‘Tip Pickup’ plate.
 3.  Once the maintenance check is done. Start the tri-reagent KF
-    protocol. Use the ‘→’ to navigate to the RNA tab, select “**enter
-    protocol name**” and press start.
+    protocol. Use the ‘→’ to navigate to the RNA tab, select
+    “**Avian_Blood_TriZol_20260413**” and press start.
 
 ## Sample Preparation:
 
@@ -112,7 +111,7 @@ The printable version of this protocol can be found
 > blood** samples stored in **DNA/RNA Shield**.
 
 1.  Prior to thawing samples turn on biosafety cabinet (BSC) in 3204 and
-    let blower “go” for 15 minutes. Wipe down inside of BSC with
+    let blower “run” for 15 minutes. Wipe down inside of BSC with
     quartricide and RNase Zap. Additionally wipe down grey countertops
     with quartricide and outside of Kingfisher robot with both
     quatricide and RNase Zap.
@@ -121,9 +120,11 @@ The printable version of this protocol can be found
     was not stored in DNR/RNA shield, add *200uL* of DNA/RNA shield to
     *50uL* of blood sample and pipette mix before step 2.
 
-3.  Once samples are thawed. Add a 3mm sterile bead and vortex clotted
-    sample for 5 minutes using the multi-tube vortex to break apart
-    clot.
+3.  Once samples are thawed. Add a 3mm sterile steel bead to each tube.
+    Use the Moyer’s lab paint shaker in ISC-3206 to mechanically lyse
+    the blood clots. Two rounds of 4 minutes each with a 10 minute chill
+    on ice between shaking. If clot is homogenized after first round the
+    second is not needed.
 
 4.  Pipette 20uL of Proteinase K solution (Omega-biotek 20mg/ml)
     directly into original sample tube and vortex. Place the sample tube
