@@ -1,7 +1,7 @@
 ---
 title: "Tri-Reagent Avian Whole Blood total RNA extraction Protocol"
 author: 'Jonathan Dain'
-date: "2026-01-29"
+date: "2026-04-13"
 format: gfm
 prefer-html: TRUE
 format-links: false
@@ -34,7 +34,7 @@ The printable version of this protocol can be found [here](https://htmlpreview.g
 -   3mm steal beads (2 per sample)
 
 | Reagents                       |     x 1 sample     | x 12 samples | x 24 samples |
-|:------------------|:----------------:|:----------------:|:----------------:|
+|:-------------------------------|:------------------:|:------------:|:------------:|
 | Tri-Reagent                    |      1000 uL       |    12 mL     |    24 mL     |
 | Mag Beads                      |       20 uL        |    240 uL    |    480 uL    |
 | DNA/RNA Wash 1 Buffer          |       500 uL       |     6 mL     |    12 mL     |
@@ -64,6 +64,8 @@ The printable version of this protocol can be found [here](https://htmlpreview.g
 
 1.  If not done already: Add 20 ml (R2100, R2101) or 80 ml (R2102, R2103) of isopropanol to the MagBead DNA/RNA Wash 1 concentrate and mix well.
 2.  If not done already: Add 30 ml (R2100, R2101) or 120 ml (R2102, R2103) of isopropanol to the MagBead DNA/RNA Wash 2 concentrate and mix well.
+
+-   [ ] Buffers prepared prior to this. Initials here -\>
 
 ### Kingfisher Robot Preparation:
 
