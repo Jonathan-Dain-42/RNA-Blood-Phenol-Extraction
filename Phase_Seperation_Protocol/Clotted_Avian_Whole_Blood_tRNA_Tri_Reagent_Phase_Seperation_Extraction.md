@@ -25,7 +25,7 @@ Flex ‘benchtop’ robot. The automation script can be found
 [here](https://github.com/Jonathan-Dain-42/RNA-Blood-Phenol-Extraction/Phase_Seperation_Protocol/Avian_Whole_Blood_tRNA_Tri_Reagemt_Phase_Seperation_Extraction.html)
 
 The printable version of this protocol can be found
-[here](https://htmlpreview.github.io/?https://github.com/Jonathan-Dain-42/RNA-Blood-Phenol-Extraction/blob/main/Phase_Seperation_Protocol/Clotted_Avian_Whole_Blood_tRNA_Tri_Reagemt_Phase_Seperation_Extraction.html).
+[here](https://htmlpreview.github.io/?https://github.com/Jonathan-Dain-42/RNA-Blood-Phenol-Extraction/blob/main/Phase_Seperation_Protocol/Clotted_Avian_Whole_Blood_tRNA_Tri_Reagent_Phase_Seperation_Extraction.html).
 
 ## Safety Information:
 
