@@ -1,6 +1,6 @@
 # Clotted Avian Whole Blood total RNA extraction Protocol
 Jonathan Dain
-2026-05-29
+2026-07-06
 
 ## Purpose:
 
@@ -58,6 +58,8 @@ The printable version of this protocol can be found
 | DNase/RNase Free Water (Aliquot) | 100 uL | 1.2 mL | 2.4 mL |
 | 1-Bromo-3-chloropropane @ 4ºC | 100 uL | 1.2 mL | 2.4 mL |
 | DNA/RNA Shield | 200 uL (as needed) | 2.4 mL | 4.8 mL |
+| DNase 1 (Reconstituted) | 45uL | 540uL | 1080uL |
+| DNA Digestion Buffer | 5uL | 60uL | 120uL |
 
 ## Pre-Extraction Checklist:
 
@@ -85,6 +87,13 @@ The printable version of this protocol can be found
 5.  If not done already: Add 30 ml (R2100, R2101) or 120 ml (R2102,
     R2103) of isopropanol to the MagBead DNA/RNA Wash 2 concentrate and
     mix well.
+6.  If not done already: Reconstitute DNase 1 (E1009-A, 250 U) with
+    2.25mL Nuclease free water. Determine aliquot size and store as
+    frozen aliquots.
+7.  If not done already: Prepare DNase 1 Reaction Mix by adding 45uL
+    DNase 1 (reconstituted) and 5uL DNA Digestion Buffer in a nuclease
+    free tube. **Scale up proportionally for more samples.** Place on
+    ice until ready to use.
 
 - [ ] Buffers prepared prior to this. Initials
   here:\_\_\_\_\_\_\_\_\_\_\_
@@ -116,9 +125,9 @@ The printable version of this protocol can be found
     sample. Use a P1000 pipette with P1000 tips to pre-fill each tube
     with 1000uL of Tri-reagent and add 1 x 3mm steel bead.
 
-7.  Aliquot out enough 1-Bromo-3-chloropropane for the extraction
-    (i.e. 100uL per sample + 50uL for pipetting error) into a autoclaved
-    5mL tube. Place aliquot in the -20ºC freezer.
+7.  Aliquot out enough 1-Bromo-3-chloropropane for the extraction (i.e.
+    100uL per sample + 50uL for pipetting error) into a autoclaved 5mL
+    tube. Place aliquot in the -20ºC freezer.
 
 8.  Pull samples to extract out of the -80ºC freezer and begin thawing
     them on ice in the green ice bucket in fume hood.
@@ -139,7 +148,7 @@ The printable version of this protocol can be found
 13. While the samples are incubating go back to the BSC in 3204 and
     label 7 x Kingfisher 96-deep well plates in the following order:
     Samples, DNA/RNA Wash 1, DNA/RNA Wash 2, Ethanol Wash 1, Ethanol
-    Wash 2, Elution.
+    Wash 2, DNase, Elution.
 
 14. Add the following reagents to each well, in each plate, in order.
 
@@ -149,14 +158,16 @@ The printable version of this protocol can be found
 16. Add *500uL* MagBead DNA/RNA Wash 2 to each well in the DNA/RNA Wash
     2 plate.
 
-17. Add *500uL* ethanol (96-100%) into ethanol wash plate 1 and 2.
+17. Add *500uL* Ethanol (96-100%) into ethanol wash plate 1 and 2.
 
-18. Add *100uL* DNase/RNase free water to each well in the elution
+18. Add 50uL of DNase 1 Reaction Mix to each well on the DNase plate.
+
+19. Add *100uL* DNase/RNase free water to each well in the elution
     plate.
 
-19. Load the places (minus the sample plate) onto the robot.
+20. Load the places (minus the sample plate) onto the robot.
 
-20. After the incubation place the samples into the labeled orange tube
+21. After the incubation place the samples into the labeled orange tube
     rack with additional empty tubes for balance/force distribution.
     Take this tube rack to the paint shaker in 3206 and homogenize the
     samples. **Specifically place the samples in the machine for 3
@@ -196,7 +207,8 @@ The printable version of this protocol can be found
 > 🛠️ **The rest of this protocol will be performed by the benchtop
 > Kingfisher Flex robot in room 3204 using a custom script mentioned
 > above. Buffers are already dispensed into deep well plates the robot
-> is manually moving the beads to accomplish the below steps.**
+> is manually moving the beads to accomplish the below steps. Step 9 and
+> 10 <u>require</u> manual input from user.**
 
 4.  Mix well for 10 minutes then pellet the beads, and discard the
     cleared supernatant.
@@ -207,15 +219,22 @@ The printable version of this protocol can be found
 7.  Add *500uL* ethanol (96-100%) and mix well. Pellet the beads, and
     again discard the supernatant.
 8.  **Repeat Step 7 of RNA Purification.**
-9.  Dry the beads for 10 minutes or until fully dry.
-10. Add *100uL* of DNase/RNase-Free Water and mix well for 5 minutes.
-11. Elute RNA into 100uL DNase/RNase free water and remove beads.
-12. **Off of the robot**, manually aliquot the eluted RNA into a labeled
+9.  Add *50uL* DNase 1 Reaction Mix and mix gently for 10 minutes.
+    **Note: The machine will pause after this step for manual input here
+    for step 10.**
+10. Manually add 500uL RNA Prep Buffer and mix well for 10 minutes.
+    **Click Resume on robot.** Pellet the beads and discard the
+    supernatant.
+11. Repeat steps 7-8.
+12. Dry the beads for 10 minutes or until fully dry.
+13. Add *100uL* of DNase/RNase-Free Water and mix well for 5 minutes.
+14. Elute RNA into 100uL DNase/RNase free water and remove beads.
+15. **Off of the robot**, manually aliquot the eluted RNA into a labeled
     0.5mL eppendorf tubes.
-13. Aliquot 12.5 ul of RNA for quantitation into strip tubes. Use 2 μl
+16. Aliquot 12.5 ul of RNA for quantitation into strip tubes. Use 2 μl
     for Qubit, 8 μl for Bioanalyzer, and 2 ul for Nanodrop, with the
     remaining 0.5 μl to account for pipetting error. Store RNA in -80°C.
-14. Place eluted RNA into -80ºC for storage until further
+17. Place eluted RNA into -80ºC for storage until further
     processing/sequencing.
 
 ## Cleanup and Decontamination
