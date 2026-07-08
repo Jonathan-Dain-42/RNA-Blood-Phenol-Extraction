@@ -117,7 +117,7 @@ The printable version of this protocol can be found
 
 4.  Once the maintenance check is done. Start the tri-reagent KF
     protocol. Use the ‘→’ to navigate to the RNA tab, select
-    “**Avian_Blood_TriZol_20260413**” and press start.
+    “**Avian_Blood_TriZol_20260706**” and press start.
 
 5.  Wipe down fume hood area with quatricide and RNase Zap.
 
