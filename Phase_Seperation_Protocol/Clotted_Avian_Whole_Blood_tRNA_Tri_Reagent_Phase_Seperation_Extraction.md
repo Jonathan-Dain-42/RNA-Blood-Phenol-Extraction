@@ -90,10 +90,9 @@ The printable version of this protocol can be found
 6.  If not done already: Reconstitute DNase 1 (E1009-A, 250 U) with
     2.25mL Nuclease free water. Determine aliquot size and store as
     frozen aliquots.
-7.  If not done already: Prepare DNase 1 Reaction Mix by adding 45uL
-    DNase 1 (reconstituted) and 5uL DNA Digestion Buffer in a nuclease
-    free tube. **Scale up proportionally for more samples.** Place on
-    ice until ready to use.
+7.  Prepare DNase 1 Reaction Mix by adding 45uL DNase 1 (reconstituted)
+    and 5uL DNA Digestion Buffer in a nuclease free tube. **Scale up
+    proportionally for more samples.** Place on ice until ready to use.
 
 - [ ] Buffers prepared prior to this. Initials
   here:\_\_\_\_\_\_\_\_\_\_\_
@@ -119,11 +118,13 @@ The printable version of this protocol can be found
     protocol. Use the ‘→’ to navigate to the RNA tab, select
     “**Avian_Blood_TriZol_20260706**” and press start.
 
-5.  Wipe down fume hood area with quatricide and RNase Zap.
+5.  In the BSC hood label a new autoclaved 2mL eppendorf tube per sample
+    with the sample ID on both lid and side. Add 1 x 3mm steel bead into
+    each sample tube.
 
-6.  In the fume hood label a new autoclaved 2mL eppendorf tube per
-    sample. Use a P1000 pipette with P1000 tips to pre-fill each tube
-    with 1000uL of Tri-reagent and add 1 x 3mm steel bead.
+6.  Wipe down fume hood (DeLeon lab) area with quatricide and RNase Zap
+    then bring the tubes to the fume hood. Use a P1000 pipette with
+    P1000 tips to pre-fill each tube with 1000uL of Tri-reagent.
 
 7.  Aliquot out enough 1-Bromo-3-chloropropane for the extraction (i.e.
     100uL per sample + 50uL for pipetting error) into a autoclaved 5mL
@@ -167,12 +168,16 @@ The printable version of this protocol can be found
 
 20. Load the places (minus the sample plate) onto the robot.
 
-21. After the incubation place the samples into the labeled orange tube
-    rack with additional empty tubes for balance/force distribution.
-    Take this tube rack to the paint shaker in 3206 and homogenize the
-    samples. **Specifically place the samples in the machine for 3
-    rounds of 2 minutes each with a 1 minute chill on ice (green bucket)
-    between them. Rotate the tube rack 180º between rounds.**
+21. After the incubation place the samples into labeled green ice
+    bucket. Take orange rack with extra vials for weight/force
+    distribution, protocol, and pen and place all of these into the
+    plastic container on the autoclave cart. Wheel cart from ISC to
+    Wheatley floor 3 to use the paint-shaker to homogenize samples. Time
+    the travel time there and back. **Specifically place the samples in
+    the machine for 4 rounds of 2 minutes each with a 1 minute chill on
+    ice (green bucket) between them. Rotate the tube rack 180º between
+    rounds.** Use additional rounds as needed to break up clots but do
+    not exceed 8 rounds. Note shaker rounds for each sample.
 
 ## Step Two: Phase Seperation
 
@@ -187,11 +192,11 @@ The printable version of this protocol can be found
     Centrifugation separates the mixture into 3 phases: a colorless
     upper aqueous phase containing total RNA, an interphase containing
     DNA, and the red organic phase containing proteins.
-4.  Carefully collect up to 400 μl of the aqueous phase, making sure not
-    to disturb interphase or lower organic phase, and place in **sample
-    plate** taking care to place sample into correct well of sample
-    plate. Discared the interphase and lower organic phase. *Note this
-    must be discarded in the proper waste receptical.*
+4.  Carefully collect up to 300-400 μl of the aqueous phase, making sure
+    not to disturb interphase or lower organic phase, and place in
+    **sample plate** taking care to place sample into correct well of
+    sample plate. Discared the interphase and lower organic phase. *Note
+    this must be discarded in the proper waste receptical.*
 
 > 💡 Here is a visual example of [Phase
 > Seperation](https://cdn.shopify.com/s/files/1/0803/9419/1166/files/1_6905ba21-b3eb-4a34-9355-94e0bc796bac_1024x1024.jpg?v=1751352495)
