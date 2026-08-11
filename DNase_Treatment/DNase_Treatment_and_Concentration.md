@@ -19,7 +19,7 @@ carryover gDNA in samples extracted using a Tri-Reagent phase seperation
 protocol.
 
 The printable version of this protocol can be found
-[here](https://htmlpreview.github.io/?https://github.com/Jonathan-Dain-42/RNA-Blood-Phenol-Extraction/blob/main/DNase_Treatment/DNase_Treatment_and_Concentration.html)
+[here](https://htmlpreview.github.io/?https://github.com/Jonathan-Dain-42/RNA-Blood-Phenol-Extraction/blob/main/DNase_Treatment/DNase_Treatment_and_Concentration.html).
 
 ## Equipment Checklist:
 

@@ -17,7 +17,7 @@ This protocol has been adapted from the Zymo Clean and Concentrator R1013 kit
 [protocol](chrome-extension://oemmndcbldboiebfnladdacbdfmadadm/https://files.zymoresearch.com/protocols/_r1013_r1014_r1015_r1016_rna_clean_concentrator-5.pdf?_gl=1*9twdev*_gcl_au*MTQwNzk4NzgwOC4xNzgzMzUzNTM1Li0uLS4xNzg1MzUyNDI2LjE1MjUxOTk0NjAuMTc4NjA0MzAxMy4xNzg2MDQ2NjQ1)
 to allow for use in the Virus+Lab. In addition this protocol has be adapted to allow for the use of TurboDNase instead of DNase I during the gDNA removal step. TurboDNase is *according to Thermo Fisher* a superior enzyme that catalyzes more DNA that DNase I and is more salt tolerant than DNase I which makes it a excellent choice for removing the carryover gDNA in samples extracted using a Tri-Reagent phase seperation protocol. 
 
-The printable version of this protocol can be found [here](https://htmlpreview.github.io/?https://github.com/Jonathan-Dain-42/RNA-Blood-Phenol-Extraction/blob/main/DNase_Treatment/DNase_Treatment_and_Concentration.html)
+The printable version of this protocol can be found [here](https://htmlpreview.github.io/?https://github.com/Jonathan-Dain-42/RNA-Blood-Phenol-Extraction/blob/main/DNase_Treatment/DNase_Treatment_and_Concentration.html).
 
 ## Equipment Checklist:
 
