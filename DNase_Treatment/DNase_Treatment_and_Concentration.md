@@ -65,7 +65,7 @@ qPCR hood**:
 
 2.  1 x Primary Elution Tube (1.5 mL): Label the lid and side with the
     sample ID. (You will transfer the Zymo column into this tube for the
-    final 45uL water elution).
+    final 55uL water elution).
 
 3.  1 x GENEWIZ Tube (8-tube PCR strip): Label the lid and side clearly
     with the sample ID and “GW” (ensure this matches GENEWIZ’s specific
@@ -112,7 +112,7 @@ Turbo DNase Master Mix reagent list and volumes.
     this step.**
 4.  Add up to 55uL of sample into a RNase-free tube.
 5.  Add 10uL of DNase master-mix to each sample.
-6.  Place samples on heat block set to 37ºC and incubate for 30 minutes.
+6.  Place samples on heat block set to 37ºC and incubate for 45 minutes.
 7.  Proceed with RNA Clean-up protocol below.
 
 If TurboDNase is used initial and date here:\_\_\_\_\_\_\_\_
