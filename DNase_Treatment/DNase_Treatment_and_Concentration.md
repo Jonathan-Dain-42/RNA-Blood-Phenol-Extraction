@@ -77,20 +77,43 @@ qPCR hood**:
 5.  1 x QC PCR Tube (pink-0.5 mL): Label the lid with the sample ID or
     batch position number (e.g., 1 through 8).
 
+| Sample Tube:              | Color:                                 |
+|---------------------------|----------------------------------------|
+| DNase Reaction Tube (2mL) | Clear standard 2mL Eppendorf           |
+| Primary Elution Tube      | Clear standard 2mL Eppendorf           |
+| GENEWIZ PCR Strip Tube    | <span style="color: blue;">Blue</span> |
+| Archive Tube (0.5mL)      | <span style="color: blue;">Blue</span> |
+| QC Tube (0.5mL)           | <span style="color: brown;">Tan</span> |
+
+Color Coded Sample Vials
+
 ## Step 1A: DNase Treatment if using TurboDNase
 
-Note: This treatment assumes a RXN volume of 60uL (allowing for use of
-the entire original eluent).
+Note: This treatment assumes a RXN volume of 65uL (allowing for use of
+the entire original eluent i.e. 55uL). Additionally we are going to make
+a master mix for our DNase solution since pipetting 1uL of TurboDNase is
+very tricky.
 
-1.  Add up to 50uL of sample into a RNase-free tube. Add Nuclease-free
-    H20 into the same tube to bring volume to 53uL.
-2.  Add 6uL of 10X TURBO™ DNase Buffer to the same tube to create a
-    final concentration of 1X.
-3.  Add 1 μL TURBO™ DNase (2 U) to the same tube using a p2 pipette.
-    **Note that this solution is highly viscous so care should be taken
-    at this step.**
-4.  Place samples on heat block set to 37ºC and incubate for 30 minutes.
-5.  Proceed with RNA Clean-up protocol below.
+| Reagent               | For 1 Sample | For 10 Samples (+ 1 extra) |
+|-----------------------|--------------|----------------------------|
+| 10X TurboDNase Buffer | 6.5uL        | 71.5uL                     |
+| Turbo DNase (2U)      | 1uL          | 11uL                       |
+| Nuclease-free H2O     | 2.5uL        | 27.5uL                     |
+| Total Volume          | 10uL         | 110uL                      |
+
+Turbo DNase Master Mix reagent list and volumes.
+
+1.  Thaw TurboDNase Buffer on ice. Ensuer that is is fully liquid and
+    homogenized by vortexing briefly.
+2.  Thaw TurboDNase slowly on ice and keep on ice.
+3.  Create DNase master mix according to the table above (typically this
+    will be 10 samples + 1 extra). **Note that the DNase enzyme is 50%
+    glycerol and as such is highly viscous so care should be taken at
+    this step.**
+4.  Add up to 55uL of sample into a RNase-free tube.
+5.  Add 10uL of DNase master-mix to each sample.
+6.  Place samples on heat block set to 37ºC and incubate for 30 minutes.
+7.  Proceed with RNA Clean-up protocol below.
 
 If TurboDNase is used initial and date here:\_\_\_\_\_\_\_\_
 
@@ -108,9 +131,9 @@ If DNase I is used initial and date here:\_\_\_\_\_\_\_\_
 ## Step 2: RNA Clean-up and Concentration
 
 1.  Add 2 x volumes RNA Binding Buffer to each sample and mix. For a
-    60uL sample volume this would be 120uL buffer (assuming TurboDNase).
-2.  Add 1 x volume of 100% EtOH and mix.(i.e. equal volume
-    i.e. 60+120=180)
+    65uL sample volume this would be 130uL buffer (assuming TurboDNase).
+2.  Add 1 x volume of 100% EtOH and mix.(i.e. equal volume i.e.
+    65+130=195)
 3.  Transfer the sample to Zymo-Spin IC Column in a Collection Tube and
     centrifuge at 12,000 rpm for 30 seconds. **Discard the
     flow-through**.

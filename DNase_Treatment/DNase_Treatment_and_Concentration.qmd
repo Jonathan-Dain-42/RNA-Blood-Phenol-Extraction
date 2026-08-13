@@ -13,11 +13,19 @@ format-links: false
 The purpose of this protocol is to remove gDNA contamination from RNA
 eluted using the Phenol-Phase-Separation protocol I
 [developed](https://github.com/Jonathan-Dain-42/RNA-Blood-Phenol-Extraction/blob/main/Phase_Seperation_Protocol/Clotted_Avian_Whole_Blood_tRNA_Tri_Reagent_Phase_Seperation_Extraction.md).
-This protocol has been adapted from the Zymo Clean and Concentrator R1013 kit
+This protocol has been adapted from the Zymo Clean and Concentrator
+R1013 kit
 [protocol](https://files.zymoresearch.com/protocols/_r1013_r1014_r1015_r1016_rna_clean_concentrator-5.pdf?_gl=1*9twdev*_gcl_au*MTQwNzk4NzgwOC4xNzgzMzUzNTM1Li0uLS4xNzg1MzUyNDI2LjE1MjUxOTk0NjAuMTc4NjA0MzAxMy4xNzg2MDQ2NjQ1)
-to allow for use in the Virus+Lab. In addition this protocol has been adapted to allow for the use of TurboDNase instead of DNase I during the gDNA removal step. TurboDNase is *according to Thermo Fisher* a superior enzyme that catalyzes more DNA than DNase I and is more salt tolerant than DNase I which makes it a excellent choice for removing the carryover gDNA in samples extracted using a Tri-Reagent phase seperation protocol. 
+to allow for use in the Virus+Lab. In addition this protocol has been
+adapted to allow for the use of TurboDNase instead of DNase I during the
+gDNA removal step. TurboDNase is *according to Thermo Fisher* a superior
+enzyme that catalyzes more DNA than DNase I and is more salt tolerant
+than DNase I which makes it a excellent choice for removing the
+carryover gDNA in samples extracted using a Tri-Reagent phase seperation
+protocol.
 
-The printable version of this protocol can be found [here](https://htmlpreview.github.io/?https://github.com/Jonathan-Dain-42/RNA-Blood-Phenol-Extraction/blob/main/DNase_Treatment/DNase_Treatment_and_Concentration.html).
+The printable version of this protocol can be found
+[here](https://htmlpreview.github.io/?https://github.com/Jonathan-Dain-42/RNA-Blood-Phenol-Extraction/blob/main/DNase_Treatment/DNase_Treatment_and_Concentration.html).
 
 ## Equipment Checklist:
 
@@ -26,7 +34,7 @@ The printable version of this protocol can be found [here](https://htmlpreview.g
 -   1 x Pipette-200 + Tips.
 -   1 x Pipette-1000 + Tips.
 -   "Jake" the centrifuge on the lab bench.
--   Ice Bucket to thaw samples slowly. 
+-   Ice Bucket to thaw samples slowly.
 
 # Protocol:
 
@@ -46,73 +54,132 @@ The printable version of this protocol can be found [here](https://htmlpreview.g
 
 : Reconstitution Volumes for Lyophilized DNase I
 
-- **If Buffers made already** sign and date here:_________
+-   **If Buffers made already** sign and date here:\_\_\_\_\_\_\_\_\_
 
 ## Step 0B: Tube Labeling
 
-**Note: To minimize errors and limit the time your RNA sits at room temperature, completely set up and label all tubes for your batch before removing your samples from the freezer.**
+**Note: To minimize errors and limit the time your RNA sits at room
+temperature, completely set up and label all tubes for your batch before
+removing your samples from the freezer.**
 
-For each sample in your current batch, gather and label the following five RNase-free tubes using a fine-tip permanent marker **inside the qPCR hood**:
+For each sample in your current batch, gather and label the following
+five RNase-free tubes using a fine-tip permanent marker **inside the
+qPCR hood**:
 
-1.  1 x DNase Reaction Tube (1.5 mL): Label the lid with the sample ID. (This is where the initial 60uL DNase reaction will take place).
+1.  1 x DNase Reaction Tube (1.5 mL): Label the lid with the sample ID.
+    (This is where the initial 60uL DNase reaction will take place).
 
-2.  1 x Primary Elution Tube (1.5 mL): Label the lid and side with the sample ID. (You will transfer the Zymo column into this tube for the final 45uL water elution).
+2.  1 x Primary Elution Tube (1.5 mL): Label the lid and side with the
+    sample ID. (You will transfer the Zymo column into this tube for the
+    final 45uL water elution).
 
-3.  1 x GENEWIZ Tube (8-tube PCR strip): Label the lid and side clearly with the sample ID and "GW" (ensure this matches GENEWIZ's specific online submission naming rules).
+3.  1 x GENEWIZ Tube (8-tube PCR strip): Label the lid and side clearly
+    with the sample ID and "GW" (ensure this matches GENEWIZ's specific
+    online submission naming rules).
 
-4.  1 x Archive Tube (blue-0.5 mL): Label the lid and side with the sample ID, date, and "Archive".
+4.  1 x Archive Tube (blue-0.5 mL): Label the lid and side with the
+    sample ID, date, and "Archive".
 
-5.  1 x QC PCR Tube (pink-0.5 mL): Label the lid with the sample ID or batch position number (e.g., 1 through 8).
+5.  1 x QC PCR Tube (pink-0.5 mL): Label the lid with the sample ID or
+    batch position number (e.g., 1 through 8).
+
+| Sample Tube:              | Color:                       |
+|---------------------------|------------------------------|
+| DNase Reaction Tube (2mL) | Clear standard 2mL Eppendorf |
+| Primary Elution Tube      | Clear standard 2mL Eppendorf |
+| GENEWIZ PCR Strip Tube    | [Blue]{style="color: blue;"} |
+| Archive Tube (0.5mL)      | [Blue]{style="color: blue;"} |
+| QC Tube (0.5mL)           | [Tan]{style="color: brown;"} |
+
+: Color Coded Sample Vials
 
 ## Step 1A: DNase Treatment if using TurboDNase
 
-Note: This treatment assumes a RXN volume of 60uL (allowing for use of the entire original eluent).
+Note: This treatment assumes a RXN volume of 65uL (allowing for use of
+the entire original eluent i.e. 55uL). Additionally we are going to make
+a master mix for our DNase solution since pipetting 1uL of TurboDNase is
+very tricky.
 
-1.  Add up to 50uL of sample into a RNase-free tube. Add Nuclease-free H20 into the same tube to bring volume to 53uL.
-2.  Add 6uL of 10X TURBO™ DNase Buffer to the same tube to create a final concentration of 1X.
-3.  Add 1 μL TURBO™ DNase (2 U) to the same tube using a p2 pipette. **Note that this solution is highly viscous so care should be taken at this step.**
-4.  Place samples on heat block set to 37ºC and incubate for 30 minutes. 
-5.  Proceed with RNA Clean-up protocol below.
+| Reagent               | For 1 Sample | For 10 Samples (+ 1 extra) |
+|-----------------------|--------------|----------------------------|
+| 10X TurboDNase Buffer | 6.5uL        | 71.5uL                     |
+| Turbo DNase (2U)      | 1uL          | 11uL                       |
+| Nuclease-free H2O     | 2.5uL        | 27.5uL                     |
+| Total Volume          | 10uL         | 110uL                      |
 
-If TurboDNase is used initial and date here:________
+: Turbo DNase Master Mix reagent list and volumes.
+
+1.  Thaw TurboDNase Buffer on ice. Ensuer that is is fully liquid and
+    homogenized by vortexing briefly.
+2.  Thaw TurboDNase slowly on ice and keep on ice.
+3.  Create DNase master mix according to the table above (typically this
+    will be 10 samples + 1 extra). **Note that the DNase enzyme is 50%
+    glycerol and as such is highly viscous so care should be taken at
+    this step.**
+4.  Add up to 55uL of sample into a RNase-free tube.
+5.  Add 10uL of DNase master-mix to each sample.
+6.  Place samples on heat block set to 37ºC and incubate for 30 minutes.
+7.  Proceed with RNA Clean-up protocol below.
+
+If TurboDNase is used initial and date here:\_\_\_\_\_\_\_\_
 
 ## Step 1B: DNase Treatment if using DNase I
 
 1.  Place 40uL of sample into RNase-free tube.
 2.  Add 5uL of reconstituted DNase I to the same tube.
 3.  Add 5uL DNA Digestion Buffer to the same tube.
-4.  Mix by gentle inversion or gentle pipette aspiration. 
+4.  Mix by gentle inversion or gentle pipette aspiration.
 5.  Incubate at room temperature (20-30ºC) for 15 minutes.
 6.  Proceed with RNA Clean-up protocol below.
 
-If DNase I is used initial and date here:________
+If DNase I is used initial and date here:\_\_\_\_\_\_\_\_
 
 ## Step 2: RNA Clean-up and Concentration
 
-1.  Add 2 x volumes RNA Binding Buffer to each sample and mix. For a 60uL sample volume this would be 120uL buffer (assuming TurboDNase).
-2.  Add 1 x volume of 100% EtOH and mix.(i.e. equal volume i.e. 60+120=180)
-3.  Transfer the sample to Zymo-Spin IC Column in a Collection Tube and centrifuge at 12,000 rpm for 30 seconds. **Discard the flow-through**.
-4.  Add 400uL RNA Prep Buffer to the column and centrifuge at 12,000 rpm for 30 seconds. **Discard the flow-through**.
-5.  Add 700uL RNA Wash Buffer to the column and centrifuge at 12,000 rpm for 30 seconds. **Discard the flow-through**.
-6.  Add 400uL RNA Wash Buffer to the column and centrifuge at 12,000 rpm for 1 minute to ensure complete removal of the wash buffer. **Discard the flow-through**.
-7.  Carefully transfer the column to a new RNase-free tube. 
-8.  Add 55uL of RNase/DNase-free H20 to the column matrix and centrifuge at 12,000 rpm for 30 seconds. **Keep the flow-through i.e. eluent**
+1.  Add 2 x volumes RNA Binding Buffer to each sample and mix. For a
+    65uL sample volume this would be 130uL buffer (assuming TurboDNase).
+2.  Add 1 x volume of 100% EtOH and mix.(i.e. equal volume i.e.
+    65+130=195)
+3.  Transfer the sample to Zymo-Spin IC Column in a Collection Tube and
+    centrifuge at 12,000 rpm for 30 seconds. **Discard the
+    flow-through**.
+4.  Add 400uL RNA Prep Buffer to the column and centrifuge at 12,000 rpm
+    for 30 seconds. **Discard the flow-through**.
+5.  Add 700uL RNA Wash Buffer to the column and centrifuge at 12,000 rpm
+    for 30 seconds. **Discard the flow-through**.
+6.  Add 400uL RNA Wash Buffer to the column and centrifuge at 12,000 rpm
+    for 1 minute to ensure complete removal of the wash buffer.
+    **Discard the flow-through**.
+7.  Carefully transfer the column to a new RNase-free tube.
+8.  Add 55uL of RNase/DNase-free H20 to the column matrix and centrifuge
+    at 12,000 rpm for 30 seconds. **Keep the flow-through i.e. eluent**
 
 ## Step 3: RNA Aliquotting and QC
 
-**Note: This is a critical step and should be taken with care. Take a nice deep breath before pipetting to minimize error.**
+**Note: This is a critical step and should be taken with care. Take a
+nice deep breath before pipetting to minimize error.**
 
-1.  In the labeled pink-0.5mL tube aliquot out 6uL of sample for QC. (1.5uL for nano-drop, 2uL for Qubit, and remaining 2.5uL for tapestation)
+1.  In the labeled pink-0.5mL tube aliquot out 6uL of sample for QC.
+    (1.5uL for nano-drop, 2uL for Qubit, and remaining 2.5uL for
+    tapestation)
 2.  In the GENEWIZ labeled tube aliquot 26uL of eluent and cap.
-3.  In the archive labeled tube aliquot the remaining ~19-20uL of eluent and cap.
-4.  Place GENEWIZ, archive tube into the -80ºC freezer in appropriate Cryobox. Keep PCR tube aliquot buried in wet ice for batch QC. 
-5.  Perform Nano-Drop, Qubit and Tapestation dilutions/assays on PCR tube aliquot for the batch before proceeding to the next batch. 
-6.  Once qubit concentrations are known, label a new 1.5mL tube and dilute sample to a concentration of ~2,500 pg/ul in 3-5uL for the tapestation assay. 
+3.  In the archive labeled tube aliquot the remaining \~19-20uL of
+    eluent and cap.
+4.  Place GENEWIZ, archive tube into the -80ºC freezer in appropriate
+    Cryobox. Keep PCR tube aliquot buried in wet ice for batch QC.
+5.  Perform Nano-Drop, Qubit and Tapestation dilutions/assays on PCR
+    tube aliquot for the batch before proceeding to the next batch.
+6.  Once qubit concentrations are known, label a new 1.5mL tube and
+    dilute sample to a concentration of \~2,500 pg/ul in 3-5uL for the
+    tapestation assay.
 
 ## Step 4: Clean-up and decon
 
 1.  Dispose of all sample columns into the bio-hazard waste container.
-2.  Clean workspace area with RNase-zap and then 70% EtOH to remove any remaining nucleic acids.
-3.  Prepare the next batch of samples (as needed) by labeling the correct number of nuclease-free tubes. 
-4.  Record any important information in the tRNA DNase-treatment notes document as needed.
+2.  Clean workspace area with RNase-zap and then 70% EtOH to remove any
+    remaining nucleic acids.
+3.  Prepare the next batch of samples (as needed) by labeling the
+    correct number of nuclease-free tubes.
+4.  Record any important information in the tRNA DNase-treatment notes
+    document as needed.
 5.  Breath.....
