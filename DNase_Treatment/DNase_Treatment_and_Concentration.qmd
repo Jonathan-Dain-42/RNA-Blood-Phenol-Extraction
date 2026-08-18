@@ -11,7 +11,7 @@ format-links: false
 # Purpose:
 
 The purpose of this protocol is to remove gDNA contamination from RNA
-eluted using the Phenol-Phase-Separation protocol I
+eluted using the Phenol-Phase-Separation protocol, I
 [developed](https://github.com/Jonathan-Dain-42/RNA-Blood-Phenol-Extraction/blob/main/Phase_Seperation_Protocol/Clotted_Avian_Whole_Blood_tRNA_Tri_Reagent_Phase_Seperation_Extraction.md).
 This protocol has been adapted from the Zymo Clean and Concentrator
 R1013 kit
@@ -66,16 +66,16 @@ For each sample in your current batch, gather and label the following
 five RNase-free tubes using a fine-tip permanent marker **inside the
 qPCR hood**:
 
-1.  1 x DNase Reaction Tube (1.5 mL): Label the lid with the sample ID.
-    (This is where the initial 60uL DNase reaction will take place).
+1.  1 x DNase Reaction Tube (2 mL): Label the lid with the sample ID.
+    (This is where the initial 65uL DNase reaction will take place).
 
-2.  1 x Primary Elution Tube (1.5 mL): Label the lid and side with the
-    sample ID. (You will transfer the Zymo column into this tube for the
-    final 55uL water elution).
+2.  1 x Primary Elution Tube (2 mL): Label the lid and side with the
+    sample ID and the letter "E" (eluent). (You will transfer the Zymo
+    column into this tube for the final 55uL water elution).
 
-3.  1 x GENEWIZ Tube (8-tube PCR strip): Label the lid and side clearly
+3.  1 x GENEWIZ Tube (RNase-free 1.5mL): Label the lid and side clearly
     with the sample ID and "GW" (ensure this matches GENEWIZ's specific
-    online submission naming rules).
+    online submission naming rules). **i.e. MDPXXX**
 
 4.  1 x Archive Tube (blue-0.5 mL): Label the lid and side with the
     sample ID, date, and "Archive".
@@ -89,7 +89,7 @@ qPCR hood**:
 | Primary Elution Tube      | Clear standard 2mL Eppendorf |
 | GENEWIZ PCR Strip Tube    | [Blue]{style="color: blue;"} |
 | Archive Tube (0.5mL)      | [Blue]{style="color: blue;"} |
-| QC Tube (0.5mL)           | [Tan]{style="color: brown;"} |
+| QC Tube (0.5mL)           | [Pink]{style="color: pink;"} |
 
 : Color Coded Sample Vials
 
@@ -97,25 +97,25 @@ qPCR hood**:
 
 Note: This treatment assumes a RXN volume of 65uL (allowing for use of
 the entire original eluent i.e. 55uL). Additionally we are going to make
-a master mix for our DNase solution since pipetting 1uL of TurboDNase is
-very tricky.
+a master mix for our DNase solution since pipetting exactly 1uL of
+TurboDNase is very tricky.
 
-| Reagent               | For 1 Sample | For 10 Samples (+ 1 extra) |
-|-----------------------|--------------|----------------------------|
-| 10X TurboDNase Buffer | 6.5uL        | 71.5uL                     |
-| Turbo DNase (2U)      | 1uL          | 11uL                       |
-| Nuclease-free H2O     | 2.5uL        | 27.5uL                     |
-| Total Volume          | 10uL         | 110uL                      |
+| Reagent | For 1 Sample | For 8 samples (+ 1 extra) | For 10 Samples (+ 1 extra) |
+|----|----|----|----|
+| 10X TurboDNase Buffer | 6.5uL | 58.5uL | 71.5uL |
+| Turbo DNase (2U) | 1uL | 9uL | 11uL |
+| Nuclease-free H2O | 2.5uL | 22.5uL | 27.5uL |
+| Total Volume | 10uL | 90uL | 110uL |
 
 : Turbo DNase Master Mix reagent list and volumes.
 
-1.  Thaw TurboDNase Buffer on ice. Ensuer that is is fully liquid and
+1.  Thaw TurboDNase Buffer on ice. Ensure that is is fully liquid and
     homogenized by vortexing briefly.
-2.  Thaw TurboDNase slowly on ice and keep on ice.
+2.  Keep TurboDNase Enzyme in the Strata-cooler in the 4ºC mini-fridge.
 3.  Create DNase master mix according to the table above (typically this
-    will be 10 samples + 1 extra). **Note that the DNase enzyme is 50%
-    glycerol and as such is highly viscous so care should be taken at
-    this step.**
+    will be 10 samples + 1 extra). Spike in the TurboDNase at the last
+    moment. **Note that the DNase enzyme is 50% glycerol and as such is
+    highly viscous so care should be taken at this step.**
 4.  Add up to 55uL of sample into a RNase-free tube.
 5.  Add 10uL of DNase master-mix to each sample.
 6.  Place samples on heat block set to 37ºC and incubate for 45 minutes.
@@ -169,9 +169,9 @@ nice deep breath before pipetting to minimize error.**
     Cryobox. Keep PCR tube aliquot buried in wet ice for batch QC.
 5.  Perform Nano-Drop, Qubit and Tapestation dilutions/assays on PCR
     tube aliquot for the batch before proceeding to the next batch.
-6.  Once qubit concentrations are known, label a new 1.5mL tube and
-    dilute sample to a concentration of \~2,500 pg/ul in 3-5uL for the
-    tapestation assay.
+6.  Once qubit concentrations are known, label a new RNase-free 1.5mL
+    tube and dilute sample to a concentration of \~2,500 pg/ul in 3-5uL
+    for the tapestation assay.
 
 ## Step 4: Clean-up and decon
 
